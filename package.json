@@ -1,5 +1,5 @@
 {
-  "name": "pb_-_2024.05.21_-_elumesim_(copy)",
+  "name": "pb_-_2024.05.21_-_elumesim_(copy)_-_1",
   "version": "1.0.0",
   "description": "",
   "scripts": {
@@ -9,6 +9,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "parcel": "^2.7.0"
+    "parcel": "^2.7.0",
+    "postcss": "^8.4.16",
+    "tailwindcss": "^3.1.8"
   }
 }

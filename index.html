@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="initial-scale=1, width=device-width" />
 
-    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./global.css" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Almarai:wght@700&display=swap"
@@ -27,1281 +27,2397 @@
     />
   </head>
   <body>
-    <div class="homepage">
-      <header class="header">
-        <div class="top-navigation">
-          <div class="smartphone-1-parent">
+    <div
+      class="w-main-frame relative flex flex-col items-start justify-start leading-[normal] tracking-[normal]"
+    >
+      <header
+        class="self-stretch bg-color-base-light flex flex-row items-center justify-between py-paragraph-spacing-l px-margins box-border top-[0] z-[99] sticky max-w-full gap-[20px] text-left text-base text-text font-para mq900:pl-[30px] mq900:pr-[30px] mq900:box-border mq1275:pl-[60px] mq1275:pr-[60px] mq1275:box-border"
+      >
+        <div
+          class="flex flex-row items-center justify-start gap-[24px] max-w-full"
+        >
+          <div
+            class="flex flex-row items-start justify-start gap-[8px] text-9xl text-black font-almarai"
+          >
             <img
-              class="smartphone-1-icon"
+              class="h-8 w-8 relative object-cover min-h-[32px]"
               alt=""
-              src="./public/smartphone-1@2x.png"
+              src="/public/smartphone-1@2x.png"
             />
 
-            <a class="elumesim">eLumeSIM</a>
+            <a
+              class="[text-decoration:none] h-[31px] relative font-bold text-[inherit] flex items-center whitespace-nowrap"
+              >eLumeSIM</a
+            >
           </div>
-          <div class="destinations">Destinations</div>
-          <div class="about">About</div>
-          <div class="help">Help</div>
-          <div class="usd">USD</div>
+          <div class="relative leading-[22px] inline-block min-w-[95px]">
+            Destinations
+          </div>
+          <div class="relative leading-[22px] inline-block min-w-[46px]">
+            About
+          </div>
+          <div class="relative leading-[22px] inline-block min-w-[35px]">
+            Help
+          </div>
+          <div class="relative leading-[22px] inline-block min-w-[34px]">
+            USD
+          </div>
         </div>
-        <div class="user-navigation">
-          <div class="search-bar">
+        <div
+          class="flex flex-row items-center justify-start gap-[24px] max-w-full mq900:hidden"
+        >
+          <div
+            class="rounded-xl flex flex-row items-center justify-start py-2.5 px-[11px] gap-[24px] whitespace-nowrap border-[1px] border-solid border-button"
+          >
             <img
-              class="search-normal-icon"
+              class="h-6 w-6 relative min-h-[24px]"
               alt=""
-              src="./public/searchnormal.svg"
+              src="/public/searchnormal.svg"
             />
 
-            <div class="where-are-you">Where are you travelling?</div>
+            <div class="relative leading-[22px] mq450:hidden">
+              Where are you travelling?
+            </div>
           </div>
-          <div class="log-in">Log in</div>
+          <div
+            class="relative leading-[22px] inline-block min-w-[46px] whitespace-nowrap"
+          >
+            Log in
+          </div>
         </div>
       </header>
-      <section class="hero">
-        <h1 class="international-esim-data">International eSIM Data Plans</h1>
-        <div class="local-prices-no">
+      <section
+        class="self-stretch flex flex-col items-start justify-start py-section-spacing-m3 pr-5 pl-margins box-border gap-[24.8px] bg-[url('/public/hero@3x.png')] bg-cover bg-no-repeat bg-[top] max-w-full text-left text-5xl text-color-base-light font-para mq900:pl-[60px] mq900:pt-[52px] mq900:pb-[52px] mq900:box-border mq450:pl-5 mq450:box-border"
+      >
+        <h1
+          class="m-0 relative text-29xl leading-[53px] font-bold font-inherit inline-block max-w-full mq900:text-19xl mq900:leading-[42px] mq450:text-10xl mq450:leading-[32px]"
+        >
+          International eSIM Data Plans
+        </h1>
+        <div
+          class="relative leading-[29px] font-semibold inline-block max-w-full mq450:text-lgi mq450:leading-[23px]"
+        >
           Local Prices. No Roaming. Fastest Networks.
         </div>
-        <div class="hero-search">
+        <div
+          class="w-[516px] rounded-xl bg-gray-200 box-border flex flex-row items-start justify-start py-2.5 px-3 gap-[24px] max-w-full border-[1px] border-solid border-color-base-light"
+        >
           <img
-            class="search-normal-icon1"
+            class="h-6 w-6 relative min-h-[24px]"
             alt=""
-            src="./public/searchnormal-1.svg"
+            src="/public/searchnormal-1.svg"
           />
 
           <input
-            class="destination-input"
+            class="w-[191px] [border:none] [outline:none] bg-[transparent] h-[23px] flex flex-col items-start justify-start pt-px px-0 pb-0 box-border font-para text-base text-color-base-light"
             placeholder="Where are you travelling?"
             type="text"
           />
         </div>
-        <div class="from-4000-reviews">⭐⭐⭐⭐⭐ From 4000+ reviews</div>
-        <div class="trusted-by-250000">Trusted by 250,000+ customers</div>
-      </section>
-      <section class="country-listing-1920x">
-        <div class="popular-countries-title">
-          <h2 class="popular-countries">Popular Countries</h2>
+        <div
+          class="w-[368px] relative leading-[58px] font-semibold flex items-center max-w-full mq450:text-lgi mq450:leading-[23px]"
+        >
+          ⭐⭐⭐⭐⭐ From 4000+ reviews
         </div>
-        <form class="country-grid">
-          <div class="country-items">
-            <div class="country-rows">
+        <div class="relative text-lg leading-[22px] font-semibold">
+          Trusted by 250,000+ customers
+        </div>
+      </section>
+      <section
+        class="self-stretch bg-filler flex flex-col items-center justify-start py-section-spacing-m2 px-5 box-border gap-[64px] max-w-full text-left text-13xl text-color-base-light font-para mq900:gap-[32px] mq900:pt-[34px] mq900:pb-[34px] mq900:box-border mq1275:pt-[52px] mq1275:pb-[52px] mq1275:box-border mq450:gap-[16px]"
+      >
+        <div
+          class="w-[1680px] flex flex-row items-start justify-start max-w-full"
+        >
+          <h2
+            class="m-0 flex-1 relative text-inherit leading-[120%] font-bold font-inherit inline-block max-w-full mq900:text-7xl mq900:leading-[31px] mq450:text-lgi mq450:leading-[23px]"
+          >
+            Popular Countries
+          </h2>
+        </div>
+        <form
+          class="m-0 w-[1680px] flex flex-row flex-wrap items-center justify-center gap-[24px_22.7px] min-h-[807px] max-w-full"
+        >
+          <div
+            class="w-[402px] shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] rounded-21xl bg-color-base-light flex flex-row items-center justify-between py-6 px-12 box-border max-w-full gap-[20px] mq450:pl-5 mq450:pr-5 mq450:box-border"
+          >
+            <div class="flex flex-row items-center justify-start gap-[8px]">
               <img
-                class="flagaf-icon"
+                class="h-[46.7px] w-[70px] relative overflow-hidden shrink-0"
                 loading="lazy"
                 alt=""
-                src="./public/flagaf.svg"
+                src="/public/flagaf.svg"
               />
 
-              <div class="afghanistan">Afghanistan</div>
+              <div
+                class="relative text-lg leading-[22px] font-medium font-para text-black text-left inline-block min-w-[104px]"
+              >
+                Afghanistan
+              </div>
             </div>
-            <img class="arrow-down-icon" alt="" src="./public/arrowdown.svg" />
+            <img class="h-6 w-6 relative" alt="" src="/public/arrowdown.svg" />
           </div>
-          <div class="country-items1">
-            <div class="flagal-parent">
+          <div
+            class="w-[402px] shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] rounded-21xl bg-color-base-light flex flex-row items-center justify-between py-6 px-12 box-border max-w-full gap-[20px] mq450:pl-5 mq450:pr-5 mq450:box-border"
+          >
+            <div class="flex flex-row items-center justify-start gap-[8px]">
               <img
-                class="flagal-icon"
+                class="h-[46.7px] w-[70px] relative overflow-hidden shrink-0"
                 loading="lazy"
                 alt=""
-                src="./public/flagal.svg"
+                src="/public/flagal.svg"
               />
 
-              <div class="albania">Albania</div>
+              <div
+                class="relative text-lg leading-[22px] font-medium font-para text-black text-left inline-block min-w-[65px]"
+              >
+                Albania
+              </div>
             </div>
-            <img class="arrow-down-icon1" alt="" src="./public/arrowdown.svg" />
+            <img class="h-6 w-6 relative" alt="" src="/public/arrowdown.svg" />
           </div>
-          <div class="country-items2">
-            <div class="flagad-parent">
-              <img class="flagad-icon" alt="" src="./public/flagad.svg" />
-
-              <div class="andorra">Andorra</div>
-            </div>
-            <img class="arrow-down-icon2" alt="" src="./public/arrowdown.svg" />
-          </div>
-          <div class="country-items3">
-            <div class="flagai-parent">
-              <img class="flagai-icon" alt="" src="./public/flagai.svg" />
-
-              <div class="anguilla">Anguilla</div>
-            </div>
-            <img class="arrow-down-icon3" alt="" src="./public/arrowdown.svg" />
-          </div>
-          <div class="country-items4">
-            <div class="flagar-parent">
+          <div
+            class="w-[402px] shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] rounded-21xl bg-color-base-light flex flex-row items-center justify-between py-6 px-12 box-border max-w-full gap-[20px] mq450:pl-5 mq450:pr-5 mq450:box-border"
+          >
+            <div class="flex flex-row items-center justify-start gap-[8px]">
               <img
-                class="flagar-icon"
+                class="h-[46.7px] w-[70px] relative overflow-hidden shrink-0"
+                alt=""
+                src="/public/flagad.svg"
+              />
+
+              <div
+                class="relative text-lg leading-[22px] font-medium font-para text-black text-left inline-block min-w-[70px]"
+              >
+                Andorra
+              </div>
+            </div>
+            <img class="h-6 w-6 relative" alt="" src="/public/arrowdown.svg" />
+          </div>
+          <div
+            class="w-[402px] shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] rounded-21xl bg-color-base-light flex flex-row items-center justify-between py-6 px-12 box-border max-w-full gap-[20px] mq450:pl-5 mq450:pr-5 mq450:box-border"
+          >
+            <div class="flex flex-row items-center justify-start gap-[8px]">
+              <img
+                class="h-[46.7px] w-[70px] relative overflow-hidden shrink-0"
+                alt=""
+                src="/public/flagai.svg"
+              />
+
+              <div
+                class="relative text-lg leading-[22px] font-medium font-para text-black text-left inline-block min-w-[69px]"
+              >
+                Anguilla
+              </div>
+            </div>
+            <img class="h-6 w-6 relative" alt="" src="/public/arrowdown.svg" />
+          </div>
+          <div
+            class="w-[402px] shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] rounded-21xl bg-color-base-light flex flex-row items-center justify-between py-6 px-12 box-border max-w-full gap-[20px] mq450:pl-5 mq450:pr-5 mq450:box-border"
+          >
+            <div class="flex flex-row items-center justify-start gap-[8px]">
+              <img
+                class="h-[46.7px] w-[70px] relative overflow-hidden shrink-0"
                 loading="lazy"
                 alt=""
-                src="./public/flagar.svg"
+                src="/public/flagar.svg"
               />
 
-              <div class="argentina">Argentina</div>
+              <div
+                class="relative text-lg leading-[22px] font-medium font-para text-black text-left inline-block min-w-[84px]"
+              >
+                Argentina
+              </div>
             </div>
-            <img class="arrow-down-icon4" alt="" src="./public/arrowdown.svg" />
+            <img class="h-6 w-6 relative" alt="" src="/public/arrowdown.svg" />
           </div>
-          <div class="country-items5">
-            <div class="flagag-parent">
+          <div
+            class="w-[402px] shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] rounded-21xl bg-color-base-light flex flex-row items-center justify-between py-6 px-12 box-border max-w-full gap-[20px] mq450:pl-5 mq450:pr-5 mq450:box-border"
+          >
+            <div class="flex flex-row items-center justify-start gap-[8px]">
               <img
-                class="flagag-icon"
+                class="h-[46.7px] w-[70px] relative overflow-hidden shrink-0"
                 loading="lazy"
                 alt=""
-                src="./public/flagag.svg"
+                src="/public/flagag.svg"
               />
 
-              <div class="antigua-and-barbuda">Antigua and Barbuda</div>
+              <div
+                class="relative text-lg leading-[22px] font-medium font-para text-black text-left"
+              >
+                Antigua and Barbuda
+              </div>
             </div>
-            <img class="arrow-down-icon5" alt="" src="./public/arrowdown.svg" />
+            <img class="h-6 w-6 relative" alt="" src="/public/arrowdown.svg" />
           </div>
-          <button class="country-items6">
-            <div class="flagae-parent">
-              <img class="flagae-icon" alt="" src="./public/flagae.svg" />
+          <button
+            class="cursor-pointer [border:none] py-6 px-12 bg-color-base-light w-[402px] shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] rounded-21xl flex flex-row items-center justify-between box-border max-w-full gap-[20px] mq450:pl-5 mq450:pr-5 mq450:box-border"
+          >
+            <div class="flex flex-row items-center justify-start gap-[8px]">
+              <img
+                class="h-[46.7px] w-[70px] relative overflow-hidden shrink-0"
+                alt=""
+                src="/public/flagae.svg"
+              />
 
-              <div class="arab-emirates">Arab Emirates</div>
+              <div
+                class="relative text-lg leading-[22px] font-medium font-para text-black text-left inline-block min-w-[121px]"
+              >
+                Arab Emirates
+              </div>
             </div>
-            <img class="arrow-down-icon6" alt="" src="./public/arrowdown.svg" />
+            <img class="h-6 w-6 relative" alt="" src="/public/arrowdown.svg" />
           </button>
-          <div class="country-items7">
-            <div class="flagau-parent">
-              <img class="flagau-icon" alt="" src="./public/flagau.svg" />
-
-              <div class="australia">Australia</div>
-            </div>
-            <img class="arrow-down-icon7" alt="" src="./public/arrowdown.svg" />
-          </div>
-          <div class="country-items8">
-            <div class="flagbd-parent">
+          <div
+            class="w-[402px] shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] rounded-21xl bg-color-base-light flex flex-row items-center justify-between py-6 px-12 box-border max-w-full gap-[20px] mq450:pl-5 mq450:pr-5 mq450:box-border"
+          >
+            <div class="flex flex-row items-center justify-start gap-[8px]">
               <img
-                class="flagbd-icon"
-                loading="lazy"
+                class="h-[46.7px] w-[70px] relative overflow-hidden shrink-0"
                 alt=""
-                src="./public/flagbd.svg"
+                src="/public/flagau.svg"
               />
 
-              <div class="bangladesh">Bangladesh</div>
+              <div
+                class="relative text-lg leading-[22px] font-medium font-para text-black text-left inline-block min-w-[76px]"
+              >
+                Australia
+              </div>
             </div>
-            <img class="arrow-down-icon8" alt="" src="./public/arrowdown.svg" />
+            <img class="h-6 w-6 relative" alt="" src="/public/arrowdown.svg" />
           </div>
-          <div class="country-items9">
-            <div class="flagbe-parent">
+          <div
+            class="w-[402px] shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] rounded-21xl bg-color-base-light flex flex-row items-center justify-between py-6 px-12 box-border max-w-full gap-[20px] mq450:pl-5 mq450:pr-5 mq450:box-border"
+          >
+            <div class="flex flex-row items-center justify-start gap-[8px]">
               <img
-                class="flagbe-icon"
+                class="h-[46.7px] w-[70px] relative overflow-hidden shrink-0"
                 loading="lazy"
                 alt=""
-                src="./public/flagbe.svg"
+                src="/public/flagbd.svg"
               />
 
-              <div class="belgium">Belgium</div>
+              <div
+                class="relative text-lg leading-[22px] font-medium font-para text-black text-left inline-block min-w-[101px]"
+              >
+                Bangladesh
+              </div>
             </div>
-            <img class="arrow-down-icon9" alt="" src="./public/arrowdown.svg" />
+            <img class="h-6 w-6 relative" alt="" src="/public/arrowdown.svg" />
           </div>
-          <div class="country-items10">
-            <div class="flagcn-parent">
-              <img class="flagcn-icon" alt="" src="./public/flagcn.svg" />
-
-              <div class="china">China</div>
-            </div>
-            <img
-              class="arrow-down-icon10"
-              alt=""
-              src="./public/arrowdown.svg"
-            />
-          </div>
-          <div class="country-items11">
-            <div class="flagck-parent">
-              <img class="flagck-icon" alt="" src="./public/flagck.svg" />
-
-              <div class="cook-islands">Cook Islands</div>
-            </div>
-            <img
-              class="arrow-down-icon11"
-              alt=""
-              src="./public/arrowdown.svg"
-            />
-          </div>
-          <div class="country-items12">
-            <div class="flagfr-parent">
+          <div
+            class="w-[402px] shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] rounded-21xl bg-color-base-light flex flex-row items-center justify-between py-6 px-12 box-border max-w-full gap-[20px] mq450:pl-5 mq450:pr-5 mq450:box-border"
+          >
+            <div class="flex flex-row items-center justify-start gap-[8px]">
               <img
-                class="flagfr-icon"
+                class="h-[46.7px] w-[70px] relative overflow-hidden shrink-0"
                 loading="lazy"
                 alt=""
-                src="./public/flagfr.svg"
+                src="/public/flagbe.svg"
               />
 
-              <div class="france">France</div>
+              <div
+                class="relative text-lg leading-[22px] font-medium font-para text-black text-left inline-block min-w-[70px]"
+              >
+                Belgium
+              </div>
             </div>
-            <img
-              class="arrow-down-icon12"
-              alt=""
-              src="./public/arrowdown.svg"
-            />
+            <img class="h-6 w-6 relative" alt="" src="/public/arrowdown.svg" />
           </div>
-          <div class="country-items13">
-            <div class="flagin-parent">
-              <img class="flagin-icon" alt="" src="./public/flagin.svg" />
-
-              <div class="india">India</div>
-            </div>
-            <img
-              class="arrow-down-icon13"
-              alt=""
-              src="./public/arrowdown.svg"
-            />
-          </div>
-          <div class="country-items14">
-            <div class="flagjp-parent">
-              <img class="flagjp-icon" alt="" src="./public/flagjp.svg" />
-
-              <div class="japan">Japan</div>
-            </div>
-            <img
-              class="arrow-down-icon14"
-              alt=""
-              src="./public/arrowdown.svg"
-            />
-          </div>
-          <div class="country-items15">
-            <div class="flagmy-parent">
-              <img class="flagmy-icon" alt="" src="./public/flagmy.svg" />
-
-              <div class="malaysia">Malaysia</div>
-            </div>
-            <img
-              class="arrow-down-icon15"
-              alt=""
-              src="./public/arrowdown.svg"
-            />
-          </div>
-          <div class="country-items16">
-            <div class="flagnp-parent">
+          <div
+            class="w-[402px] shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] rounded-21xl bg-color-base-light flex flex-row items-center justify-between py-6 px-12 box-border max-w-full gap-[20px]"
+          >
+            <div class="flex flex-row items-center justify-start gap-[8px]">
               <img
-                class="flagnp-icon"
+                class="h-[46.7px] w-[70px] relative overflow-hidden shrink-0"
+                alt=""
+                src="/public/flagcn.svg"
+              />
+
+              <div
+                class="relative text-lg leading-[22px] font-medium font-para text-black text-left inline-block min-w-[50px]"
+              >
+                China
+              </div>
+            </div>
+            <img class="h-6 w-6 relative" alt="" src="/public/arrowdown.svg" />
+          </div>
+          <div
+            class="w-[402px] shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] rounded-21xl bg-color-base-light flex flex-row items-center justify-between py-6 px-12 box-border max-w-full gap-[20px] mq450:pl-5 mq450:pr-5 mq450:box-border"
+          >
+            <div class="flex flex-row items-center justify-start gap-[8px]">
+              <img
+                class="h-[46.7px] w-[70px] relative overflow-hidden shrink-0"
+                alt=""
+                src="/public/flagck.svg"
+              />
+
+              <div
+                class="relative text-lg leading-[22px] font-medium font-para text-black text-left inline-block min-w-[111px]"
+              >
+                Cook Islands
+              </div>
+            </div>
+            <img class="h-6 w-6 relative" alt="" src="/public/arrowdown.svg" />
+          </div>
+          <div
+            class="w-[402px] shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] rounded-21xl bg-color-base-light flex flex-row items-center justify-between py-6 px-12 box-border max-w-full gap-[20px] mq450:pl-5 mq450:pr-5 mq450:box-border"
+          >
+            <div class="flex flex-row items-center justify-start gap-[8px]">
+              <img
+                class="h-[46.7px] w-[70px] relative overflow-hidden shrink-0"
                 loading="lazy"
                 alt=""
-                src="./public/flagnp.svg"
+                src="/public/flagfr.svg"
               />
 
-              <div class="nepal">Nepal</div>
+              <div
+                class="relative text-lg leading-[22px] font-medium font-para text-black text-left inline-block min-w-[60px]"
+              >
+                France
+              </div>
             </div>
-            <img
-              class="arrow-down-icon16"
-              alt=""
-              src="./public/arrowdown.svg"
-            />
+            <img class="h-6 w-6 relative" alt="" src="/public/arrowdown.svg" />
           </div>
-          <div class="country-items17">
-            <div class="flagnz-parent">
-              <img class="flagnz-icon" alt="" src="./public/flagnz.svg" />
-
-              <div class="new-zealand">New Zealand</div>
-            </div>
-            <img
-              class="arrow-down-icon17"
-              alt=""
-              src="./public/arrowdown.svg"
-            />
-          </div>
-          <div class="country-items18">
-            <div class="flagno-parent">
-              <img class="flagno-icon" alt="" src="./public/flagno.svg" />
-
-              <div class="norway">Norway</div>
-            </div>
-            <img
-              class="arrow-down-icon18"
-              alt=""
-              src="./public/arrowdown.svg"
-            />
-          </div>
-          <div class="country-items19">
-            <div class="flagpk-parent">
-              <img class="flagpk-icon" alt="" src="./public/flagpk.svg" />
-
-              <div class="pakistan">Pakistan</div>
-            </div>
-            <img
-              class="arrow-down-icon19"
-              alt=""
-              src="./public/arrowdown.svg"
-            />
-          </div>
-          <div class="country-items20">
-            <div class="flagru-parent">
+          <div
+            class="w-[402px] shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] rounded-21xl bg-color-base-light flex flex-row items-center justify-between py-6 px-12 box-border max-w-full gap-[20px]"
+          >
+            <div class="flex flex-row items-center justify-start gap-[8px]">
               <img
-                class="flagru-icon"
+                class="h-[46.7px] w-[70px] relative overflow-hidden shrink-0"
+                alt=""
+                src="/public/flagin.svg"
+              />
+
+              <div
+                class="relative text-lg leading-[22px] font-medium font-para text-black text-left inline-block min-w-[42px]"
+              >
+                India
+              </div>
+            </div>
+            <img class="h-6 w-6 relative" alt="" src="/public/arrowdown.svg" />
+          </div>
+          <div
+            class="w-[402px] shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] rounded-21xl bg-color-base-light flex flex-row items-center justify-between py-6 px-12 box-border max-w-full gap-[20px] mq450:pl-5 mq450:pr-5 mq450:box-border"
+          >
+            <div class="flex flex-row items-center justify-start gap-[8px]">
+              <img
+                class="h-[46.7px] w-[70px] relative overflow-hidden shrink-0"
+                alt=""
+                src="/public/flagjp.svg"
+              />
+
+              <div
+                class="relative text-lg leading-[22px] font-medium font-para text-black text-left inline-block min-w-[53px]"
+              >
+                Japan
+              </div>
+            </div>
+            <img class="h-6 w-6 relative" alt="" src="/public/arrowdown.svg" />
+          </div>
+          <div
+            class="w-[402px] shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] rounded-21xl bg-color-base-light flex flex-row items-center justify-between py-6 px-12 box-border max-w-full gap-[20px] mq450:pl-5 mq450:pr-5 mq450:box-border"
+          >
+            <div class="flex flex-row items-center justify-start gap-[8px]">
+              <img
+                class="h-[46.7px] w-[70px] relative overflow-hidden shrink-0"
+                alt=""
+                src="/public/flagmy.svg"
+              />
+
+              <div
+                class="relative text-lg leading-[22px] font-medium font-para text-black text-left inline-block min-w-[76px]"
+              >
+                Malaysia
+              </div>
+            </div>
+            <img class="h-6 w-6 relative" alt="" src="/public/arrowdown.svg" />
+          </div>
+          <div
+            class="w-[402px] shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] rounded-21xl bg-color-base-light flex flex-row items-center justify-between py-6 px-12 box-border max-w-full gap-[20px]"
+          >
+            <div class="flex flex-row items-center justify-start gap-[8px]">
+              <img
+                class="h-[46.7px] w-[70px] relative overflow-hidden shrink-0"
                 loading="lazy"
                 alt=""
-                src="./public/flagru.svg"
+                src="/public/flagnp.svg"
               />
 
-              <div class="russia">Russia</div>
+              <div
+                class="relative text-lg leading-[22px] font-medium font-para text-black text-left inline-block min-w-[50px]"
+              >
+                Nepal
+              </div>
             </div>
-            <img
-              class="arrow-down-icon20"
-              alt=""
-              src="./public/arrowdown.svg"
-            />
+            <img class="h-6 w-6 relative" alt="" src="/public/arrowdown.svg" />
           </div>
-          <div class="country-items21">
-            <div class="flagse-parent">
-              <img class="flagse-icon" alt="" src="./public/flagse.svg" />
-
-              <div class="sweden">Sweden</div>
-            </div>
-            <img
-              class="arrow-down-icon21"
-              alt=""
-              src="./public/arrowdown.svg"
-            />
-          </div>
-          <div class="country-items22">
-            <div class="flaglk-parent">
-              <img class="flaglk-icon" alt="" src="./public/flaglk.svg" />
-
-              <div class="sri-lanka">Sri Lanka</div>
-            </div>
-            <img
-              class="arrow-down-icon22"
-              alt=""
-              src="./public/arrowdown.svg"
-            />
-          </div>
-          <div class="country-items23">
-            <div class="flagsd-parent">
-              <img class="flagsd-icon" alt="" src="./public/flagsd.svg" />
-
-              <div class="sudan">Sudan</div>
-            </div>
-            <img
-              class="arrow-down-icon23"
-              alt=""
-              src="./public/arrowdown.svg"
-            />
-          </div>
-          <div class="country-items24">
-            <div class="flagtr-parent">
+          <div
+            class="w-[402px] shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] rounded-21xl bg-color-base-light flex flex-row items-center justify-between py-6 px-12 box-border max-w-full gap-[20px] mq450:pl-5 mq450:pr-5 mq450:box-border"
+          >
+            <div class="flex flex-row items-center justify-start gap-[8px]">
               <img
-                class="flagtr-icon"
+                class="h-[46.7px] w-[70px] relative overflow-hidden shrink-0"
+                alt=""
+                src="/public/flagnz.svg"
+              />
+
+              <div
+                class="relative text-lg leading-[22px] font-medium font-para text-black text-left inline-block min-w-[113px]"
+              >
+                New Zealand
+              </div>
+            </div>
+            <img class="h-6 w-6 relative" alt="" src="/public/arrowdown.svg" />
+          </div>
+          <div
+            class="w-[402px] shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] rounded-21xl bg-color-base-light flex flex-row items-center justify-between py-6 px-12 box-border max-w-full gap-[20px] mq450:pl-5 mq450:pr-5 mq450:box-border"
+          >
+            <div class="flex flex-row items-center justify-start gap-[8px]">
+              <img
+                class="h-[46.7px] w-[70px] relative overflow-hidden shrink-0"
+                alt=""
+                src="/public/flagno.svg"
+              />
+
+              <div
+                class="relative text-lg leading-[22px] font-medium font-para text-black text-left inline-block min-w-[67px]"
+              >
+                Norway
+              </div>
+            </div>
+            <img class="h-6 w-6 relative" alt="" src="/public/arrowdown.svg" />
+          </div>
+          <div
+            class="w-[402px] shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] rounded-21xl bg-color-base-light flex flex-row items-center justify-between py-6 px-12 box-border max-w-full gap-[20px] mq450:pl-5 mq450:pr-5 mq450:box-border"
+          >
+            <div class="flex flex-row items-center justify-start gap-[8px]">
+              <img
+                class="h-[46.7px] w-[70px] relative overflow-hidden shrink-0"
+                alt=""
+                src="/public/flagpk.svg"
+              />
+
+              <div
+                class="relative text-lg leading-[22px] font-medium font-para text-black text-left inline-block min-w-[74px]"
+              >
+                Pakistan
+              </div>
+            </div>
+            <img class="h-6 w-6 relative" alt="" src="/public/arrowdown.svg" />
+          </div>
+          <div
+            class="w-[402px] shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] rounded-21xl bg-color-base-light flex flex-row items-center justify-between py-6 px-12 box-border max-w-full gap-[20px] mq450:pl-5 mq450:pr-5 mq450:box-border"
+          >
+            <div class="flex flex-row items-center justify-start gap-[8px]">
+              <img
+                class="h-[46.7px] w-[70px] relative overflow-hidden shrink-0"
                 loading="lazy"
                 alt=""
-                src="./public/flagtr.svg"
+                src="/public/flagru.svg"
               />
 
-              <div class="turkey">Turkey</div>
+              <div
+                class="relative text-lg leading-[22px] font-medium font-para text-black text-left inline-block min-w-[57px]"
+              >
+                Russia
+              </div>
             </div>
-            <img
-              class="arrow-down-icon24"
-              alt=""
-              src="./public/arrowdown.svg"
-            />
+            <img class="h-6 w-6 relative" alt="" src="/public/arrowdown.svg" />
           </div>
-          <div class="country-items25">
-            <div class="flagug-parent">
-              <img class="flagug-icon" alt="" src="./public/flagug.svg" />
+          <div
+            class="w-[402px] shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] rounded-21xl bg-color-base-light flex flex-row items-center justify-between py-6 px-12 box-border max-w-full gap-[20px] mq450:pl-5 mq450:pr-5 mq450:box-border"
+          >
+            <div class="flex flex-row items-center justify-start gap-[8px]">
+              <img
+                class="h-[46.7px] w-[70px] relative overflow-hidden shrink-0"
+                alt=""
+                src="/public/flagse.svg"
+              />
 
-              <div class="uganda">Uganda</div>
+              <div
+                class="relative text-lg leading-[22px] font-medium font-para text-black text-left inline-block min-w-[70px]"
+              >
+                Sweden
+              </div>
             </div>
-            <img
-              class="arrow-down-icon25"
-              alt=""
-              src="./public/arrowdown.svg"
-            />
+            <img class="h-6 w-6 relative" alt="" src="/public/arrowdown.svg" />
           </div>
-          <div class="country-items26">
-            <div class="flagvn-parent">
-              <img class="flagvn-icon" alt="" src="./public/flagvn.svg" />
+          <div
+            class="w-[402px] shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] rounded-21xl bg-color-base-light flex flex-row items-center justify-between py-6 px-12 box-border max-w-full gap-[20px] mq450:pl-5 mq450:pr-5 mq450:box-border"
+          >
+            <div class="flex flex-row items-center justify-start gap-[8px]">
+              <img
+                class="h-[46.7px] w-[70px] relative overflow-hidden shrink-0"
+                alt=""
+                src="/public/flaglk.svg"
+              />
 
-              <div class="vietnam">Vietnam</div>
+              <div
+                class="relative text-lg leading-[22px] font-medium font-para text-black text-left inline-block min-w-[80px]"
+              >
+                Sri Lanka
+              </div>
             </div>
-            <img
-              class="arrow-down-icon26"
-              alt=""
-              src="./public/arrowdown.svg"
-            />
+            <img class="h-6 w-6 relative" alt="" src="/public/arrowdown.svg" />
           </div>
-          <div class="country-items27">
-            <div class="flagye-parent">
-              <img class="flagye-icon" alt="" src="./public/flagye.svg" />
+          <div
+            class="w-[402px] shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] rounded-21xl bg-color-base-light flex flex-row items-center justify-between py-6 px-12 box-border max-w-full gap-[20px] mq450:pl-5 mq450:pr-5 mq450:box-border"
+          >
+            <div class="flex flex-row items-center justify-start gap-[8px]">
+              <img
+                class="h-[46.7px] w-[70px] relative overflow-hidden shrink-0"
+                alt=""
+                src="/public/flagsd.svg"
+              />
 
-              <div class="yemen">Yemen</div>
+              <div
+                class="relative text-lg leading-[22px] font-medium font-para text-black text-left inline-block min-w-[55px]"
+              >
+                Sudan
+              </div>
             </div>
-            <img
-              class="arrow-down-icon27"
-              alt=""
-              src="./public/arrowdown.svg"
-            />
+            <img class="h-6 w-6 relative" alt="" src="/public/arrowdown.svg" />
+          </div>
+          <div
+            class="w-[402px] shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] rounded-21xl bg-color-base-light flex flex-row items-center justify-between py-6 px-12 box-border max-w-full gap-[20px] mq450:pl-5 mq450:pr-5 mq450:box-border"
+          >
+            <div class="flex flex-row items-center justify-start gap-[8px]">
+              <img
+                class="h-[46.7px] w-[70px] relative overflow-hidden shrink-0"
+                loading="lazy"
+                alt=""
+                src="/public/flagtr.svg"
+              />
+
+              <div
+                class="relative text-lg leading-[22px] font-medium font-para text-black text-left inline-block min-w-[59px]"
+              >
+                Turkey
+              </div>
+            </div>
+            <img class="h-6 w-6 relative" alt="" src="/public/arrowdown.svg" />
+          </div>
+          <div
+            class="w-[402px] shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] rounded-21xl bg-color-base-light flex flex-row items-center justify-between py-6 px-12 box-border max-w-full gap-[20px] mq450:pl-5 mq450:pr-5 mq450:box-border"
+          >
+            <div class="flex flex-row items-center justify-start gap-[8px]">
+              <img
+                class="h-[46.7px] w-[70px] relative overflow-hidden shrink-0"
+                alt=""
+                src="/public/flagug.svg"
+              />
+
+              <div
+                class="relative text-lg leading-[22px] font-medium font-para text-black text-left inline-block min-w-[67px]"
+              >
+                Uganda
+              </div>
+            </div>
+            <img class="h-6 w-6 relative" alt="" src="/public/arrowdown.svg" />
+          </div>
+          <div
+            class="w-[402px] shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] rounded-21xl bg-color-base-light flex flex-row items-center justify-between py-6 px-12 box-border max-w-full gap-[20px] mq450:pl-5 mq450:pr-5 mq450:box-border"
+          >
+            <div class="flex flex-row items-center justify-start gap-[8px]">
+              <img
+                class="h-[46.7px] w-[70px] relative overflow-hidden shrink-0"
+                alt=""
+                src="/public/flagvn.svg"
+              />
+
+              <div
+                class="relative text-lg leading-[22px] font-medium font-para text-black text-left inline-block min-w-[72px]"
+              >
+                Vietnam
+              </div>
+            </div>
+            <img class="h-6 w-6 relative" alt="" src="/public/arrowdown.svg" />
+          </div>
+          <div
+            class="w-[402px] shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] rounded-21xl bg-color-base-light flex flex-row items-center justify-between py-6 px-12 box-border max-w-full gap-[20px] mq450:pl-5 mq450:pr-5 mq450:box-border"
+          >
+            <div class="flex flex-row items-center justify-start gap-[8px]">
+              <img
+                class="h-[46.7px] w-[70px] relative overflow-hidden shrink-0"
+                alt=""
+                src="/public/flagye.svg"
+              />
+
+              <div
+                class="relative text-lg leading-[22px] font-medium font-para text-black text-left inline-block min-w-[59px]"
+              >
+                Yemen
+              </div>
+            </div>
+            <img class="h-6 w-6 relative" alt="" src="/public/arrowdown.svg" />
           </div>
         </form>
-        <div class="show-countries">
-          <button class="expand-countries">
-            <div class="show-200-countries">Show 200+ countries</div>
+        <div
+          class="w-[1680px] flex flex-col items-center justify-center max-w-full"
+        >
+          <button
+            class="cursor-pointer [border:none] py-3 px-5 bg-color-base-light w-[326px] rounded-xl flex flex-row items-center justify-center box-border whitespace-nowrap max-w-full hover:bg-gainsboro"
+          >
+            <div
+              class="relative text-base leading-[22px] font-para text-dark-green text-left"
+            >
+              Show 200+ countries
+            </div>
           </button>
         </div>
       </section>
-      <section class="listings-1920x">
-        <div class="plans-filter">
-          <div class="country-filter">
-            <h2 class="select-available-countries">
+      <section
+        class="self-stretch bg-color-base-light flex flex-row flex-wrap items-start justify-start py-0 px-margins2 box-border gap-[80px] max-w-full text-left text-13xl text-color-base-dark font-para mq900:gap-[20px] mq900:pl-[30px] mq900:pr-[30px] mq900:box-border mq1275:gap-[40px] mq1275:pl-[60px] mq1275:pr-[60px] mq1275:box-border"
+      >
+        <div
+          class="w-[348px] flex flex-col items-center justify-start py-section-spacing-m2 px-0 box-border gap-[80px] max-w-full mq900:pt-[34px] mq900:pb-[34px] mq900:box-border mq1275:pt-[52px] mq1275:pb-[52px] mq1275:box-border mq450:gap-[40px]"
+        >
+          <div
+            class="self-stretch flex flex-col items-start justify-center gap-[32px] mq450:gap-[16px]"
+          >
+            <h2
+              class="m-0 self-stretch relative text-inherit leading-[120%] font-bold font-inherit mq900:text-7xl mq900:leading-[31px] mq450:text-lgi mq450:leading-[23px]"
+            >
               Select Available Countries
             </h2>
-            <div class="form-field">
-              <input class="form-label" placeholder="Type Here" type="text" />
+            <div
+              class="self-stretch rounded-81xl bg-color-base-light overflow-hidden flex flex-row items-center justify-between py-3.5 px-numbers-161 gap-[20px] border-[1px] border-solid border-color-base-borders"
+            >
+              <input
+                class="w-[78px] [border:none] [outline:none] font-para text-base bg-[transparent] h-[22px] relative leading-[135%] text-dimgray-100 text-left inline-block p-0"
+                placeholder="Type Here"
+                type="text"
+              />
 
-              <img class="icon" alt="" src="./public/icon.svg" />
+              <img
+                class="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]"
+                alt=""
+                src="/public/icon.svg"
+              />
             </div>
           </div>
-          <div class="popular-plans">
-            <h2 class="popular-countries1">Popular Countries</h2>
-            <form class="plan-cards">
-              <div class="country-block-1">
-                <img class="card-icons" alt="" src="./public/card-icons.svg" />
-
-                <div class="nepal1">Nepal</div>
-              </div>
-              <div class="country-block-5">
+          <div
+            class="self-stretch flex flex-col items-center justify-center gap-[12px]"
+          >
+            <h2
+              class="m-0 self-stretch relative text-inherit leading-[120%] font-bold font-inherit mq900:text-7xl mq900:leading-[31px] mq450:text-lgi mq450:leading-[23px]"
+            >
+              Popular Countries
+            </h2>
+            <form
+              class="m-0 self-stretch flex flex-col items-start justify-start gap-[24px]"
+            >
+              <div
+                class="self-stretch rounded-81xl bg-background-2 overflow-hidden flex flex-row items-center justify-start py-numbers-12 pr-[248px] pl-numbers-16 gap-[16px] mq450:pr-5 mq450:box-border"
+              >
                 <img
-                  class="flagspakistan-icon"
+                  class="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]"
                   alt=""
-                  src="./public/flagspakistan.svg"
+                  src="/public/card-icons.svg"
                 />
 
-                <div class="pakistan1">Pakistan</div>
+                <div
+                  class="relative text-base leading-[22px] font-para text-text text-center inline-block min-w-[44px]"
+                >
+                  Nepal
+                </div>
               </div>
-              <div class="country-block-4">
+              <div
+                class="self-stretch rounded-81xl bg-background-2 overflow-hidden flex flex-row items-center justify-start py-numbers-12 pr-[227px] pl-numbers-16 gap-[16px] mq450:pr-5 mq450:box-border"
+              >
                 <img
-                  class="flagsindia-icon"
+                  class="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]"
                   alt=""
-                  src="./public/flagsindia.svg"
+                  src="/public/flagspakistan.svg"
                 />
 
-                <input class="india1" placeholder="India" type="text" />
+                <div
+                  class="relative text-base leading-[22px] font-para text-text text-center inline-block min-w-[65px]"
+                >
+                  Pakistan
+                </div>
               </div>
-              <div class="country-block-3">
+              <div
+                class="self-stretch rounded-81xl bg-background-2 overflow-hidden flex flex-row items-center justify-center py-numbers-12 pr-[255px] pl-numbers-16 gap-[16px] mq450:flex-wrap mq450:pr-5 mq450:box-border"
+              >
                 <img
-                  class="flagsunited-states-icon"
+                  class="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]"
                   alt=""
-                  src="./public/flagsunited-states.svg"
+                  src="/public/flagsindia.svg"
                 />
 
-                <div class="usa">USA</div>
+                <input
+                  class="w-[calc(100%_-_295px)] [border:none] [outline:none] font-para text-base bg-[transparent] h-[22px] flex-1 relative leading-[135%] text-text text-center inline-block min-w-[24px] p-0"
+                  placeholder="India"
+                  type="text"
+                />
               </div>
-              <div class="country-block-6">
+              <div
+                class="self-stretch rounded-81xl bg-background-2 overflow-hidden flex flex-row items-center justify-start py-numbers-12 pr-[259px] pl-numbers-16 gap-[16px] mq450:pr-5 mq450:box-border"
+              >
                 <img
-                  class="flagsmonaco-icon"
+                  class="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]"
                   alt=""
-                  src="./public/flagsmonaco.svg"
+                  src="/public/flagsunited-states.svg"
                 />
 
-                <div class="monaco">Monaco</div>
+                <div
+                  class="relative text-base leading-[22px] font-para text-text text-center inline-block min-w-[33px]"
+                >
+                  USA
+                </div>
               </div>
-              <div class="country-block-7">
+              <div
+                class="self-stretch rounded-81xl bg-background-2 overflow-hidden flex flex-row items-center justify-start py-numbers-12 pr-[231px] pl-numbers-16 gap-[16px] mq450:pr-5 mq450:box-border"
+              >
                 <img
-                  class="flagsthailand-icon"
+                  class="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]"
                   alt=""
-                  src="./public/flagsthailand.svg"
+                  src="/public/flagsmonaco.svg"
                 />
 
-                <div class="thailand">Thailand</div>
+                <div
+                  class="relative text-base leading-[22px] font-para text-text text-center inline-block min-w-[61px]"
+                >
+                  Monaco
+                </div>
               </div>
-              <div class="country-block-8">
+              <div
+                class="self-stretch rounded-81xl bg-background-2 overflow-hidden flex flex-row items-center justify-start py-numbers-12 pr-[227px] pl-numbers-16 gap-[16px] mq450:pr-5 mq450:box-border"
+              >
                 <img
-                  class="flagsunited-arab-emirates"
+                  class="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]"
                   alt=""
-                  src="./public/flagsunited-arab-emirates.svg"
+                  src="/public/flagsthailand.svg"
                 />
 
-                <div class="dubai">Dubai</div>
+                <div
+                  class="relative text-base leading-[22px] font-para text-text text-center inline-block min-w-[65px]"
+                >
+                  Thailand
+                </div>
               </div>
-              <button class="country-block-9">
+              <div
+                class="self-stretch rounded-81xl bg-background-2 overflow-hidden flex flex-row items-center justify-start py-numbers-12 pr-[248px] pl-numbers-16 gap-[16px] mq450:pr-5 mq450:box-border"
+              >
                 <img
-                  class="add-circle-icon"
+                  class="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]"
                   alt=""
-                  src="./public/addcircle.svg"
+                  src="/public/flagsunited-arab-emirates.svg"
                 />
 
-                <div class="explore-more">Explore More</div>
+                <div
+                  class="relative text-base leading-[22px] font-para text-text text-center inline-block min-w-[44px]"
+                >
+                  Dubai
+                </div>
+              </div>
+              <button
+                class="cursor-pointer [border:none] py-numbers-12 pr-48 pl-numbers-16 bg-background-2 self-stretch rounded-81xl overflow-hidden flex flex-row items-center justify-center gap-[16px] whitespace-nowrap hover:bg-lightgray-200 mq450:pr-5 mq450:box-border"
+              >
+                <img
+                  class="h-6 w-6 relative min-h-[24px]"
+                  alt=""
+                  src="/public/addcircle.svg"
+                />
+
+                <div
+                  class="relative text-base leading-[22px] font-para text-text text-center inline-block min-w-[100px]"
+                >
+                  Explore More
+                </div>
               </button>
             </form>
           </div>
         </div>
-        <div class="listing">
-          <div class="list-filter">
-            <div class="sort-by">
-              <div class="sort-by1">Sort By:</div>
-              <div class="form-field1">
-                <div class="form-label1">Most Popular</div>
-                <img class="icon1" alt="" src="./public/icon-1.svg" />
+        <div
+          class="flex-1 rounded-radius-xs-2 flex flex-col items-start justify-start py-20 px-0 box-border gap-[40px] min-w-[814px] max-w-full text-base text-black mq900:gap-[20px] mq900:pt-[34px] mq900:pb-[34px] mq900:box-border mq1275:pt-[52px] mq1275:pb-[52px] mq1275:box-border mq1275:min-w-full mq450:pt-[22px] mq450:pb-[22px] mq450:box-border"
+        >
+          <div
+            class="self-stretch flex flex-row items-center justify-between gap-[20px] mq900:flex-wrap"
+          >
+            <div
+              class="w-[286px] flex flex-row items-center justify-center gap-[15px]"
+            >
+              <div class="relative leading-[22px] inline-block min-w-[61px]">
+                Sort By:
+              </div>
+              <div
+                class="flex-1 rounded-81xl bg-color-base-light overflow-hidden flex flex-row items-center justify-between py-[7px] px-2.5 whitespace-nowrap gap-[20px] border-[1px] border-solid border-color-base-borders"
+              >
+                <div class="relative leading-[22px] inline-block min-w-[100px]">
+                  Most Popular
+                </div>
+                <img
+                  class="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]"
+                  alt=""
+                  src="/public/icon-1.svg"
+                />
               </div>
             </div>
-            <div class="clear-filters">
+            <div class="flex flex-row items-start justify-center gap-[12px]">
               <img
-                class="rotate-left-icon"
+                class="h-[18px] w-[18px] relative"
                 alt=""
-                src="./public/rotateleft.svg"
+                src="/public/rotateleft.svg"
               />
 
-              <div class="clear-all-filters">Clear All Filters</div>
+              <div
+                class="relative leading-[26px] font-black inline-block min-w-[124px]"
+              >
+                Clear All Filters
+              </div>
             </div>
           </div>
-          <div class="plan-items">
-            <div class="esim-parent">
-              <h2 class="esim">eSIM</h2>
-              <div class="plan-details">
-                <div class="horizontal-dividers"></div>
-                <div class="plan-info">
-                  <div class="frame-parent">
-                    <div class="global-wrapper">
+          <div
+            class="self-stretch h-[1334px] flex flex-row flex-wrap items-center justify-between py-20 px-0 box-border relative text-13xl text-color-base-light mq450:h-auto mq450:min-h-[1334]"
+          >
+            <div
+              class="w-[402px] !m-[0] absolute top-[80px] left-[0px] shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] rounded-xl bg-filler box-border flex flex-col items-start justify-start py-[47px] px-[23px] gap-[48px] border-[0.5px] border-solid border-main"
+            >
+              <h2
+                class="m-0 relative text-inherit leading-[120%] font-bold font-inherit inline-block min-w-[79px] mq900:text-7xl mq900:leading-[31px] mq450:text-lgi mq450:leading-[23px]"
+              >
+                eSIM
+              </h2>
+              <div
+                class="self-stretch h-[280px] flex flex-col items-start justify-start pt-0 px-0 pb-6 box-border gap-[23.5px] text-sm mq450:h-auto"
+              >
+                <div
+                  class="self-stretch h-px relative box-border shrink-0 border-t-[1px] border-solid border-color-base-light"
+                ></div>
+                <div
+                  class="self-stretch flex flex-row items-start justify-between gap-[20px] mq450:flex-wrap"
+                >
+                  <div
+                    class="flex flex-row items-start justify-start gap-[18px]"
+                  >
+                    <div
+                      class="flex flex-col items-start justify-start pt-[1.5px] px-0 pb-0"
+                    >
                       <img
-                        class="global-icon"
+                        class="w-[18px] h-[18px] relative shrink-0"
                         alt=""
-                        src="./public/global.svg"
+                        src="/public/global.svg"
                       />
                     </div>
-                    <b class="coverage">Coverage</b>
+                    <b
+                      class="relative tracking-[0.15em] leading-[150%] uppercase inline-block min-w-[96px] shrink-0"
+                      >Coverage</b
+                    >
                   </div>
-                  <b class="nepal2">Nepal</b>
+                  <b
+                    class="relative text-base leading-[22px] inline-block min-w-[46px]"
+                    >Nepal</b
+                  >
                 </div>
-                <div class="plan-details-child"></div>
-                <div class="data-info">
-                  <div class="swap-icons-parent">
-                    <div class="swap-icons">
+                <div
+                  class="self-stretch h-px relative box-border shrink-0 border-t-[1px] border-solid border-color-base-light"
+                ></div>
+                <div
+                  class="self-stretch flex flex-row items-start justify-between gap-[20px] mq450:flex-wrap"
+                >
+                  <div
+                    class="flex flex-row items-start justify-start gap-[18px]"
+                  >
+                    <div
+                      class="flex flex-col items-start justify-start pt-[1.5px] px-0 pb-0"
+                    >
                       <img
-                        class="arrow-swap-horizontal-icon"
+                        class="w-[18px] h-[18px] relative shrink-0"
                         alt=""
-                        src="./public/arrowswaphorizontal.svg"
+                        src="/public/arrowswaphorizontal.svg"
                       />
                     </div>
-                    <b class="data">Data</b>
+                    <b
+                      class="relative tracking-[0.15em] leading-[150%] uppercase inline-block min-w-[46px] shrink-0"
+                      >Data</b
+                    >
                   </div>
-                  <b class="gb">1 GB</b>
+                  <b
+                    class="relative text-base leading-[22px] inline-block min-w-[35px]"
+                    >1 GB</b
+                  >
                 </div>
-                <div class="plan-details-item"></div>
-                <div class="validity-info">
-                  <div class="calendar-icons-parent">
-                    <div class="calendar-icons">
+                <div
+                  class="self-stretch h-px relative box-border shrink-0 border-t-[1px] border-solid border-color-base-light"
+                ></div>
+                <div
+                  class="self-stretch flex flex-row items-start justify-between gap-[20px] mq450:flex-wrap"
+                >
+                  <div
+                    class="flex flex-row items-start justify-start gap-[18px]"
+                  >
+                    <div
+                      class="flex flex-col items-start justify-start pt-[1.5px] px-0 pb-0"
+                    >
                       <img
-                        class="calendar-icon"
+                        class="w-[18px] h-[18px] relative shrink-0"
                         alt=""
-                        src="./public/calendar.svg"
+                        src="/public/calendar.svg"
                       />
                     </div>
-                    <b class="validity">validity</b>
+                    <b
+                      class="relative tracking-[0.15em] leading-[150%] uppercase inline-block min-w-[82px] shrink-0"
+                      >validity</b
+                    >
                   </div>
-                  <b class="days">7 days</b>
+                  <b
+                    class="relative text-base leading-[22px] inline-block min-w-[51px]"
+                    >7 days</b
+                  >
                 </div>
-                <div class="plan-details-inner"></div>
-                <div class="price-info">
-                  <div class="tag-icons-parent">
-                    <div class="tag-icons">
-                      <img class="tag-icon" alt="" src="./public/tag.svg" />
+                <div
+                  class="self-stretch h-px relative box-border shrink-0 border-t-[1px] border-solid border-color-base-light"
+                ></div>
+                <div
+                  class="self-stretch flex flex-row items-start justify-between gap-[20px] mq450:flex-wrap"
+                >
+                  <div
+                    class="flex flex-row items-start justify-start gap-[18px]"
+                  >
+                    <div
+                      class="flex flex-col items-start justify-start pt-[1.5px] px-0 pb-0"
+                    >
+                      <img
+                        class="w-[18px] h-[18px] relative shrink-0"
+                        alt=""
+                        src="/public/tag.svg"
+                      />
                     </div>
-                    <b class="price">Price</b>
+                    <b
+                      class="relative tracking-[0.15em] leading-[150%] uppercase inline-block min-w-[52px] shrink-0"
+                      >Price</b
+                    >
                   </div>
-                  <b class="us-500">US $5.00</b>
+                  <b
+                    class="relative text-lg leading-[22px] inline-block min-w-[82px]"
+                    >US $5.00</b
+                  >
                 </div>
-                <div class="line-div"></div>
+                <div
+                  class="self-stretch h-px relative box-border shrink-0 border-t-[1px] border-solid border-color-base-light"
+                ></div>
               </div>
-              <button class="purchase-buttons">
-                <b class="buy-now">BUY NOW</b>
+              <button
+                class="cursor-pointer [border:none] py-3 px-5 bg-dark-green self-stretch rounded-21xl flex flex-row items-start justify-center whitespace-nowrap hover:bg-teal"
+              >
+                <b
+                  class="relative text-sm tracking-[0.15em] leading-[150%] uppercase inline-block font-para text-color-base-light text-left min-w-[83px]"
+                  >BUY NOW</b
+                >
               </button>
               <img
-                class="cards-icon"
+                class="w-[140px] h-[90px] absolute !m-[0] top-[-23px] right-[36px] rounded-3xs object-cover"
                 loading="lazy"
                 alt=""
-                src="./public/cards@2x.png"
+                src="/public/cards@2x.png"
               />
             </div>
-            <div class="esim-group">
-              <h2 class="esim1">eSIM</h2>
-              <div class="line-parent">
-                <div class="frame-child"></div>
-                <div class="frame-group">
-                  <div class="frame-container">
-                    <div class="global-container">
+            <div
+              class="w-[402px] !m-[0] absolute top-[80px] left-[425px] shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] rounded-xl bg-filler box-border flex flex-col items-start justify-start py-[47px] px-[23px] gap-[48px] border-[0.5px] border-solid border-main"
+            >
+              <h2
+                class="m-0 relative text-inherit leading-[120%] font-bold font-inherit inline-block min-w-[79px] mq900:text-7xl mq900:leading-[31px] mq450:text-lgi mq450:leading-[23px]"
+              >
+                eSIM
+              </h2>
+              <div
+                class="self-stretch h-[280px] flex flex-col items-start justify-start pt-0 px-0 pb-6 box-border gap-[23.5px] text-sm mq450:h-auto"
+              >
+                <div
+                  class="self-stretch h-px relative box-border shrink-0 border-t-[1px] border-solid border-color-base-light"
+                ></div>
+                <div
+                  class="self-stretch flex flex-row items-start justify-between gap-[20px] mq450:flex-wrap"
+                >
+                  <div
+                    class="flex flex-row items-start justify-start gap-[18px]"
+                  >
+                    <div
+                      class="flex flex-col items-start justify-start pt-[1.5px] px-0 pb-0"
+                    >
                       <img
-                        class="global-icon1"
+                        class="w-[18px] h-[18px] relative shrink-0"
                         alt=""
-                        src="./public/global.svg"
+                        src="/public/global.svg"
                       />
                     </div>
-                    <b class="coverage1">Coverage</b>
+                    <b
+                      class="relative tracking-[0.15em] leading-[150%] uppercase inline-block min-w-[96px] shrink-0"
+                      >Coverage</b
+                    >
                   </div>
-                  <b class="nepal3">Nepal</b>
+                  <b
+                    class="relative text-base leading-[22px] inline-block min-w-[46px]"
+                    >Nepal</b
+                  >
                 </div>
-                <div class="frame-item"></div>
-                <div class="frame-div">
-                  <div class="group-div">
-                    <div class="arrow-swap-horizontal-wrapper">
+                <div
+                  class="self-stretch h-px relative box-border shrink-0 border-t-[1px] border-solid border-color-base-light"
+                ></div>
+                <div
+                  class="self-stretch flex flex-row items-start justify-between gap-[20px] mq450:flex-wrap"
+                >
+                  <div
+                    class="flex flex-row items-start justify-start gap-[18px]"
+                  >
+                    <div
+                      class="flex flex-col items-start justify-start pt-[1.5px] px-0 pb-0"
+                    >
                       <img
-                        class="arrow-swap-horizontal-icon1"
+                        class="w-[18px] h-[18px] relative shrink-0"
                         alt=""
-                        src="./public/arrowswaphorizontal.svg"
+                        src="/public/arrowswaphorizontal.svg"
                       />
                     </div>
-                    <b class="data1">Data</b>
+                    <b
+                      class="relative tracking-[0.15em] leading-[150%] uppercase inline-block min-w-[46px] shrink-0"
+                      >Data</b
+                    >
                   </div>
-                  <b class="gb1">1 GB</b>
+                  <b
+                    class="relative text-base leading-[22px] inline-block min-w-[35px]"
+                    >1 GB</b
+                  >
                 </div>
-                <div class="frame-inner"></div>
-                <div class="frame-parent1">
-                  <div class="frame-parent2">
-                    <div class="calendar-wrapper">
+                <div
+                  class="self-stretch h-px relative box-border shrink-0 border-t-[1px] border-solid border-color-base-light"
+                ></div>
+                <div
+                  class="self-stretch flex flex-row items-start justify-between gap-[20px] mq450:flex-wrap"
+                >
+                  <div
+                    class="flex flex-row items-start justify-start gap-[18px]"
+                  >
+                    <div
+                      class="flex flex-col items-start justify-start pt-[1.5px] px-0 pb-0"
+                    >
                       <img
-                        class="calendar-icon1"
+                        class="w-[18px] h-[18px] relative shrink-0"
                         alt=""
-                        src="./public/calendar.svg"
+                        src="/public/calendar.svg"
                       />
                     </div>
-                    <b class="validity1">validity</b>
+                    <b
+                      class="relative tracking-[0.15em] leading-[150%] uppercase inline-block min-w-[82px] shrink-0"
+                      >validity</b
+                    >
                   </div>
-                  <b class="days1">7 days</b>
+                  <b
+                    class="relative text-base leading-[22px] inline-block min-w-[51px]"
+                    >7 days</b
+                  >
                 </div>
-                <div class="frame-child1"></div>
-                <div class="frame-parent3">
-                  <div class="frame-parent4">
-                    <div class="tag-wrapper">
-                      <img class="tag-icon1" alt="" src="./public/tag.svg" />
+                <div
+                  class="self-stretch h-px relative box-border shrink-0 border-t-[1px] border-solid border-color-base-light"
+                ></div>
+                <div
+                  class="self-stretch flex flex-row items-start justify-between gap-[20px] mq450:flex-wrap"
+                >
+                  <div
+                    class="flex flex-row items-start justify-start gap-[18px]"
+                  >
+                    <div
+                      class="flex flex-col items-start justify-start pt-[1.5px] px-0 pb-0"
+                    >
+                      <img
+                        class="w-[18px] h-[18px] relative shrink-0"
+                        alt=""
+                        src="/public/tag.svg"
+                      />
                     </div>
-                    <b class="price1">Price</b>
+                    <b
+                      class="relative tracking-[0.15em] leading-[150%] uppercase inline-block min-w-[52px] shrink-0"
+                      >Price</b
+                    >
                   </div>
-                  <b class="us-5001">US $5.00</b>
+                  <b
+                    class="relative text-lg leading-[22px] inline-block min-w-[82px]"
+                    >US $5.00</b
+                  >
                 </div>
-                <div class="frame-child2"></div>
+                <div
+                  class="self-stretch h-px relative box-border shrink-0 border-t-[1px] border-solid border-color-base-light"
+                ></div>
               </div>
-              <button class="buy-now-wrapper">
-                <b class="buy-now1">BUY NOW</b>
+              <button
+                class="cursor-pointer [border:none] py-3 px-5 bg-dark-green self-stretch rounded-21xl flex flex-row items-start justify-center whitespace-nowrap hover:bg-teal"
+              >
+                <b
+                  class="relative text-sm tracking-[0.15em] leading-[150%] uppercase inline-block font-para text-color-base-light text-left min-w-[83px]"
+                  >BUY NOW</b
+                >
               </button>
               <img
-                class="cards-icon1"
+                class="w-[140px] h-[90px] absolute !m-[0] top-[-23px] right-[36px] rounded-3xs object-cover"
                 loading="lazy"
                 alt=""
-                src="./public/cards-1@2x.png"
+                src="/public/cards-1@2x.png"
               />
             </div>
-            <div class="esim-container">
-              <h2 class="esim2">eSIM</h2>
-              <div class="line-group">
-                <div class="frame-child3"></div>
-                <div class="frame-parent5">
-                  <div class="frame-parent6">
-                    <div class="global-frame">
+            <div
+              class="w-[402px] !m-[0] absolute top-[80px] left-[850px] shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] rounded-xl bg-filler box-border flex flex-col items-start justify-start py-[47px] px-[23px] gap-[48px] border-[0.5px] border-solid border-main"
+            >
+              <h2
+                class="m-0 relative text-inherit leading-[120%] font-bold font-inherit inline-block min-w-[79px] mq900:text-7xl mq900:leading-[31px] mq450:text-lgi mq450:leading-[23px]"
+              >
+                eSIM
+              </h2>
+              <div
+                class="self-stretch h-[280px] flex flex-col items-start justify-start pt-0 px-0 pb-6 box-border gap-[23.5px] text-sm mq450:h-auto"
+              >
+                <div
+                  class="self-stretch h-px relative box-border shrink-0 border-t-[1px] border-solid border-color-base-light"
+                ></div>
+                <div
+                  class="self-stretch flex flex-row items-start justify-between gap-[20px] mq450:flex-wrap"
+                >
+                  <div
+                    class="flex flex-row items-start justify-start gap-[18px]"
+                  >
+                    <div
+                      class="flex flex-col items-start justify-start pt-[1.5px] px-0 pb-0"
+                    >
                       <img
-                        class="global-icon2"
+                        class="w-[18px] h-[18px] relative shrink-0"
                         alt=""
-                        src="./public/global.svg"
+                        src="/public/global.svg"
                       />
                     </div>
-                    <b class="coverage2">Coverage</b>
+                    <b
+                      class="relative tracking-[0.15em] leading-[150%] uppercase inline-block min-w-[96px] shrink-0"
+                      >Coverage</b
+                    >
                   </div>
-                  <b class="nepal4">Nepal</b>
+                  <b
+                    class="relative text-base leading-[22px] inline-block min-w-[46px]"
+                    >Nepal</b
+                  >
                 </div>
-                <div class="frame-child4"></div>
-                <div class="frame-parent7">
-                  <div class="frame-parent8">
-                    <div class="arrow-swap-horizontal-container">
+                <div
+                  class="self-stretch h-px relative box-border shrink-0 border-t-[1px] border-solid border-color-base-light"
+                ></div>
+                <div
+                  class="self-stretch flex flex-row items-start justify-between gap-[20px] mq450:flex-wrap"
+                >
+                  <div
+                    class="flex flex-row items-start justify-start gap-[18px]"
+                  >
+                    <div
+                      class="flex flex-col items-start justify-start pt-[1.5px] px-0 pb-0"
+                    >
                       <img
-                        class="arrow-swap-horizontal-icon2"
+                        class="w-[18px] h-[18px] relative shrink-0"
                         alt=""
-                        src="./public/arrowswaphorizontal.svg"
+                        src="/public/arrowswaphorizontal.svg"
                       />
                     </div>
-                    <b class="data2">Data</b>
+                    <b
+                      class="relative tracking-[0.15em] leading-[150%] uppercase inline-block min-w-[46px] shrink-0"
+                      >Data</b
+                    >
                   </div>
-                  <b class="gb2">1 GB</b>
+                  <b
+                    class="relative text-base leading-[22px] inline-block min-w-[35px]"
+                    >1 GB</b
+                  >
                 </div>
-                <div class="frame-child5"></div>
-                <div class="frame-parent9">
-                  <div class="frame-parent10">
-                    <div class="calendar-container">
+                <div
+                  class="self-stretch h-px relative box-border shrink-0 border-t-[1px] border-solid border-color-base-light"
+                ></div>
+                <div
+                  class="self-stretch flex flex-row items-start justify-between gap-[20px] mq450:flex-wrap"
+                >
+                  <div
+                    class="flex flex-row items-start justify-start gap-[18px]"
+                  >
+                    <div
+                      class="flex flex-col items-start justify-start pt-[1.5px] px-0 pb-0"
+                    >
                       <img
-                        class="calendar-icon2"
+                        class="w-[18px] h-[18px] relative shrink-0"
                         alt=""
-                        src="./public/calendar.svg"
+                        src="/public/calendar.svg"
                       />
                     </div>
-                    <b class="validity2">validity</b>
+                    <b
+                      class="relative tracking-[0.15em] leading-[150%] uppercase inline-block min-w-[82px] shrink-0"
+                      >validity</b
+                    >
                   </div>
-                  <b class="days2">7 days</b>
+                  <b
+                    class="relative text-base leading-[22px] inline-block min-w-[51px]"
+                    >7 days</b
+                  >
                 </div>
-                <div class="frame-child6"></div>
-                <div class="frame-parent11">
-                  <div class="frame-parent12">
-                    <div class="tag-container">
-                      <img class="tag-icon2" alt="" src="./public/tag.svg" />
+                <div
+                  class="self-stretch h-px relative box-border shrink-0 border-t-[1px] border-solid border-color-base-light"
+                ></div>
+                <div
+                  class="self-stretch flex flex-row items-start justify-between gap-[20px] mq450:flex-wrap"
+                >
+                  <div
+                    class="flex flex-row items-start justify-start gap-[18px]"
+                  >
+                    <div
+                      class="flex flex-col items-start justify-start pt-[1.5px] px-0 pb-0"
+                    >
+                      <img
+                        class="w-[18px] h-[18px] relative shrink-0"
+                        alt=""
+                        src="/public/tag.svg"
+                      />
                     </div>
-                    <b class="price2">Price</b>
+                    <b
+                      class="relative tracking-[0.15em] leading-[150%] uppercase inline-block min-w-[52px] shrink-0"
+                      >Price</b
+                    >
                   </div>
-                  <b class="us-5002">US $5.00</b>
+                  <b
+                    class="relative text-lg leading-[22px] inline-block min-w-[82px]"
+                    >US $5.00</b
+                  >
                 </div>
-                <div class="frame-child7"></div>
+                <div
+                  class="self-stretch h-px relative box-border shrink-0 border-t-[1px] border-solid border-color-base-light"
+                ></div>
               </div>
-              <button class="buy-now-container">
-                <b class="buy-now2">BUY NOW</b>
+              <button
+                class="cursor-pointer [border:none] py-3 px-5 bg-dark-green self-stretch rounded-21xl flex flex-row items-start justify-center whitespace-nowrap hover:bg-teal"
+              >
+                <b
+                  class="relative text-sm tracking-[0.15em] leading-[150%] uppercase inline-block font-para text-color-base-light text-left min-w-[83px]"
+                  >BUY NOW</b
+                >
               </button>
               <img
-                class="cards-icon2"
+                class="w-[140px] h-[90px] absolute !m-[0] top-[-23px] right-[36px] rounded-3xs object-cover"
                 loading="lazy"
                 alt=""
-                src="./public/cards-2@2x.png"
+                src="/public/cards-2@2x.png"
               />
             </div>
-            <div class="esim-parent1">
-              <h2 class="esim3">eSIM</h2>
-              <div class="line-container">
-                <div class="frame-child8"></div>
-                <div class="frame-parent13">
-                  <div class="frame-parent14">
-                    <div class="global-wrapper1">
+            <div
+              class="w-[402px] !m-[0] absolute top-[699px] left-[0px] shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] rounded-xl bg-filler box-border flex flex-col items-start justify-start py-[47px] px-[23px] gap-[48px] border-[0.5px] border-solid border-main"
+            >
+              <h2
+                class="m-0 relative text-inherit leading-[120%] font-bold font-inherit inline-block min-w-[79px] mq900:text-7xl mq900:leading-[31px] mq450:text-lgi mq450:leading-[23px]"
+              >
+                eSIM
+              </h2>
+              <div
+                class="self-stretch h-[280px] flex flex-col items-start justify-start pt-0 px-0 pb-6 box-border gap-[23.5px] text-sm mq450:h-auto"
+              >
+                <div
+                  class="self-stretch h-px relative box-border shrink-0 border-t-[1px] border-solid border-color-base-light"
+                ></div>
+                <div
+                  class="self-stretch flex flex-row items-start justify-between gap-[20px] mq450:flex-wrap"
+                >
+                  <div
+                    class="flex flex-row items-start justify-start gap-[18px]"
+                  >
+                    <div
+                      class="flex flex-col items-start justify-start pt-[1.5px] px-0 pb-0"
+                    >
                       <img
-                        class="global-icon3"
+                        class="w-[18px] h-[18px] relative shrink-0"
                         alt=""
-                        src="./public/global.svg"
+                        src="/public/global.svg"
                       />
                     </div>
-                    <b class="coverage3">Coverage</b>
+                    <b
+                      class="relative tracking-[0.15em] leading-[150%] uppercase inline-block min-w-[96px] shrink-0"
+                      >Coverage</b
+                    >
                   </div>
-                  <b class="nepal5">Nepal</b>
+                  <b
+                    class="relative text-base leading-[22px] inline-block min-w-[46px]"
+                    >Nepal</b
+                  >
                 </div>
-                <div class="frame-child9"></div>
-                <div class="frame-parent15">
-                  <div class="frame-parent16">
-                    <div class="arrow-swap-horizontal-frame">
+                <div
+                  class="self-stretch h-px relative box-border shrink-0 border-t-[1px] border-solid border-color-base-light"
+                ></div>
+                <div
+                  class="self-stretch flex flex-row items-start justify-between gap-[20px] mq450:flex-wrap"
+                >
+                  <div
+                    class="flex flex-row items-start justify-start gap-[18px]"
+                  >
+                    <div
+                      class="flex flex-col items-start justify-start pt-[1.5px] px-0 pb-0"
+                    >
                       <img
-                        class="arrow-swap-horizontal-icon3"
+                        class="w-[18px] h-[18px] relative shrink-0"
                         alt=""
-                        src="./public/arrowswaphorizontal.svg"
+                        src="/public/arrowswaphorizontal.svg"
                       />
                     </div>
-                    <b class="data3">Data</b>
+                    <b
+                      class="relative tracking-[0.15em] leading-[150%] uppercase inline-block min-w-[46px] shrink-0"
+                      >Data</b
+                    >
                   </div>
-                  <b class="gb3">1 GB</b>
+                  <b
+                    class="relative text-base leading-[22px] inline-block min-w-[35px]"
+                    >1 GB</b
+                  >
                 </div>
-                <div class="frame-child10"></div>
-                <div class="frame-parent17">
-                  <div class="frame-parent18">
-                    <div class="calendar-frame">
+                <div
+                  class="self-stretch h-px relative box-border shrink-0 border-t-[1px] border-solid border-color-base-light"
+                ></div>
+                <div
+                  class="self-stretch flex flex-row items-start justify-between gap-[20px] mq450:flex-wrap"
+                >
+                  <div
+                    class="flex flex-row items-start justify-start gap-[18px]"
+                  >
+                    <div
+                      class="flex flex-col items-start justify-start pt-[1.5px] px-0 pb-0"
+                    >
                       <img
-                        class="calendar-icon3"
+                        class="w-[18px] h-[18px] relative shrink-0"
                         alt=""
-                        src="./public/calendar.svg"
+                        src="/public/calendar.svg"
                       />
                     </div>
-                    <b class="validity3">validity</b>
+                    <b
+                      class="relative tracking-[0.15em] leading-[150%] uppercase inline-block min-w-[82px] shrink-0"
+                      >validity</b
+                    >
                   </div>
-                  <b class="days3">7 days</b>
+                  <b
+                    class="relative text-base leading-[22px] inline-block min-w-[51px]"
+                    >7 days</b
+                  >
                 </div>
-                <div class="frame-child11"></div>
-                <div class="frame-parent19">
-                  <div class="frame-parent20">
-                    <div class="tag-frame">
-                      <img class="tag-icon3" alt="" src="./public/tag.svg" />
+                <div
+                  class="self-stretch h-px relative box-border shrink-0 border-t-[1px] border-solid border-color-base-light"
+                ></div>
+                <div
+                  class="self-stretch flex flex-row items-start justify-between gap-[20px] mq450:flex-wrap"
+                >
+                  <div
+                    class="flex flex-row items-start justify-start gap-[18px]"
+                  >
+                    <div
+                      class="flex flex-col items-start justify-start pt-[1.5px] px-0 pb-0"
+                    >
+                      <img
+                        class="w-[18px] h-[18px] relative shrink-0"
+                        alt=""
+                        src="/public/tag.svg"
+                      />
                     </div>
-                    <b class="price3">Price</b>
+                    <b
+                      class="relative tracking-[0.15em] leading-[150%] uppercase inline-block min-w-[52px] shrink-0"
+                      >Price</b
+                    >
                   </div>
-                  <b class="us-5003">US $5.00</b>
+                  <b
+                    class="relative text-lg leading-[22px] inline-block min-w-[82px]"
+                    >US $5.00</b
+                  >
                 </div>
-                <div class="frame-child12"></div>
+                <div
+                  class="self-stretch h-px relative box-border shrink-0 border-t-[1px] border-solid border-color-base-light"
+                ></div>
               </div>
-              <button class="buy-now-frame">
-                <b class="buy-now3">BUY NOW</b>
+              <button
+                class="cursor-pointer [border:none] py-3 px-5 bg-dark-green self-stretch rounded-21xl flex flex-row items-start justify-center whitespace-nowrap hover:bg-teal"
+              >
+                <b
+                  class="relative text-sm tracking-[0.15em] leading-[150%] uppercase inline-block font-para text-color-base-light text-left min-w-[83px]"
+                  >BUY NOW</b
+                >
               </button>
               <img
-                class="cards-icon3"
+                class="w-[140px] h-[90px] absolute !m-[0] top-[-23px] right-[36px] rounded-3xs object-cover"
                 loading="lazy"
                 alt=""
-                src="./public/cards-3@2x.png"
+                src="/public/cards-3@2x.png"
               />
             </div>
-            <div class="esim-parent2">
-              <h2 class="esim4">eSIM</h2>
-              <div class="line-parent1">
-                <div class="frame-child13"></div>
-                <div class="frame-parent21">
-                  <div class="frame-parent22">
-                    <div class="global-wrapper2">
+            <div
+              class="w-[402px] !m-[0] absolute top-[699px] left-[425px] shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] rounded-xl bg-filler box-border flex flex-col items-start justify-start py-[47px] px-[23px] gap-[48px] border-[0.5px] border-solid border-main"
+            >
+              <h2
+                class="m-0 relative text-inherit leading-[120%] font-bold font-inherit inline-block min-w-[79px] mq900:text-7xl mq900:leading-[31px] mq450:text-lgi mq450:leading-[23px]"
+              >
+                eSIM
+              </h2>
+              <div
+                class="self-stretch h-[280px] flex flex-col items-start justify-start pt-0 px-0 pb-6 box-border gap-[23.5px] text-sm mq450:h-auto"
+              >
+                <div
+                  class="self-stretch h-px relative box-border shrink-0 border-t-[1px] border-solid border-color-base-light"
+                ></div>
+                <div
+                  class="self-stretch flex flex-row items-start justify-between gap-[20px] mq450:flex-wrap"
+                >
+                  <div
+                    class="flex flex-row items-start justify-start gap-[18px]"
+                  >
+                    <div
+                      class="flex flex-col items-start justify-start pt-[1.5px] px-0 pb-0"
+                    >
                       <img
-                        class="global-icon4"
+                        class="w-[18px] h-[18px] relative shrink-0"
                         alt=""
-                        src="./public/global.svg"
+                        src="/public/global.svg"
                       />
                     </div>
-                    <b class="coverage4">Coverage</b>
+                    <b
+                      class="relative tracking-[0.15em] leading-[150%] uppercase inline-block min-w-[96px] shrink-0"
+                      >Coverage</b
+                    >
                   </div>
-                  <b class="nepal6">Nepal</b>
+                  <b
+                    class="relative text-base leading-[22px] inline-block min-w-[46px]"
+                    >Nepal</b
+                  >
                 </div>
-                <div class="frame-child14"></div>
-                <div class="frame-parent23">
-                  <div class="frame-parent24">
-                    <div class="arrow-swap-horizontal-wrapper1">
+                <div
+                  class="self-stretch h-px relative box-border shrink-0 border-t-[1px] border-solid border-color-base-light"
+                ></div>
+                <div
+                  class="self-stretch flex flex-row items-start justify-between gap-[20px] mq450:flex-wrap"
+                >
+                  <div
+                    class="flex flex-row items-start justify-start gap-[18px]"
+                  >
+                    <div
+                      class="flex flex-col items-start justify-start pt-[1.5px] px-0 pb-0"
+                    >
                       <img
-                        class="arrow-swap-horizontal-icon4"
+                        class="w-[18px] h-[18px] relative shrink-0"
                         alt=""
-                        src="./public/arrowswaphorizontal.svg"
+                        src="/public/arrowswaphorizontal.svg"
                       />
                     </div>
-                    <b class="data4">Data</b>
+                    <b
+                      class="relative tracking-[0.15em] leading-[150%] uppercase inline-block min-w-[46px] shrink-0"
+                      >Data</b
+                    >
                   </div>
-                  <b class="gb4">1 GB</b>
+                  <b
+                    class="relative text-base leading-[22px] inline-block min-w-[35px]"
+                    >1 GB</b
+                  >
                 </div>
-                <div class="frame-child15"></div>
-                <div class="frame-parent25">
-                  <div class="frame-parent26">
-                    <div class="calendar-wrapper1">
+                <div
+                  class="self-stretch h-px relative box-border shrink-0 border-t-[1px] border-solid border-color-base-light"
+                ></div>
+                <div
+                  class="self-stretch flex flex-row items-start justify-between gap-[20px] mq450:flex-wrap"
+                >
+                  <div
+                    class="flex flex-row items-start justify-start gap-[18px]"
+                  >
+                    <div
+                      class="flex flex-col items-start justify-start pt-[1.5px] px-0 pb-0"
+                    >
                       <img
-                        class="calendar-icon4"
+                        class="w-[18px] h-[18px] relative shrink-0"
                         alt=""
-                        src="./public/calendar.svg"
+                        src="/public/calendar.svg"
                       />
                     </div>
-                    <b class="validity4">validity</b>
+                    <b
+                      class="relative tracking-[0.15em] leading-[150%] uppercase inline-block min-w-[82px] shrink-0"
+                      >validity</b
+                    >
                   </div>
-                  <b class="days4">7 days</b>
+                  <b
+                    class="relative text-base leading-[22px] inline-block min-w-[51px]"
+                    >7 days</b
+                  >
                 </div>
-                <div class="frame-child16"></div>
-                <div class="frame-parent27">
-                  <div class="frame-parent28">
-                    <div class="tag-wrapper1">
-                      <img class="tag-icon4" alt="" src="./public/tag.svg" />
+                <div
+                  class="self-stretch h-px relative box-border shrink-0 border-t-[1px] border-solid border-color-base-light"
+                ></div>
+                <div
+                  class="self-stretch flex flex-row items-start justify-between gap-[20px] mq450:flex-wrap"
+                >
+                  <div
+                    class="flex flex-row items-start justify-start gap-[18px]"
+                  >
+                    <div
+                      class="flex flex-col items-start justify-start pt-[1.5px] px-0 pb-0"
+                    >
+                      <img
+                        class="w-[18px] h-[18px] relative shrink-0"
+                        alt=""
+                        src="/public/tag.svg"
+                      />
                     </div>
-                    <b class="price4">Price</b>
+                    <b
+                      class="relative tracking-[0.15em] leading-[150%] uppercase inline-block min-w-[52px] shrink-0"
+                      >Price</b
+                    >
                   </div>
-                  <b class="us-5004">US $5.00</b>
+                  <b
+                    class="relative text-lg leading-[22px] inline-block min-w-[82px]"
+                    >US $5.00</b
+                  >
                 </div>
-                <div class="frame-child17"></div>
+                <div
+                  class="self-stretch h-px relative box-border shrink-0 border-t-[1px] border-solid border-color-base-light"
+                ></div>
               </div>
-              <button class="frame-button">
-                <b class="buy-now4">BUY NOW</b>
+              <button
+                class="cursor-pointer [border:none] py-3 px-5 bg-dark-green self-stretch rounded-21xl flex flex-row items-start justify-center whitespace-nowrap hover:bg-teal"
+              >
+                <b
+                  class="relative text-sm tracking-[0.15em] leading-[150%] uppercase inline-block font-para text-color-base-light text-left min-w-[83px]"
+                  >BUY NOW</b
+                >
               </button>
               <img
-                class="cards-icon4"
+                class="w-[140px] h-[90px] absolute !m-[0] top-[-23px] right-[36px] rounded-3xs object-cover"
                 loading="lazy"
                 alt=""
-                src="./public/cards-4@2x.png"
+                src="/public/cards-4@2x.png"
               />
             </div>
-            <div class="esim-parent3">
-              <h2 class="esim5">eSIM</h2>
-              <div class="line-parent2">
-                <div class="frame-child18"></div>
-                <div class="frame-parent29">
-                  <div class="frame-parent30">
-                    <div class="global-wrapper3">
+            <div
+              class="w-[402px] !m-[0] absolute top-[699px] left-[850px] shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] rounded-xl bg-filler box-border flex flex-col items-start justify-start py-[47px] px-[23px] gap-[48px] border-[0.5px] border-solid border-main"
+            >
+              <h2
+                class="m-0 relative text-inherit leading-[120%] font-bold font-inherit inline-block min-w-[79px] mq900:text-7xl mq900:leading-[31px] mq450:text-lgi mq450:leading-[23px]"
+              >
+                eSIM
+              </h2>
+              <div
+                class="self-stretch h-[280px] flex flex-col items-start justify-start pt-0 px-0 pb-6 box-border gap-[23.5px] text-sm mq450:h-auto"
+              >
+                <div
+                  class="self-stretch h-px relative box-border shrink-0 border-t-[1px] border-solid border-color-base-light"
+                ></div>
+                <div
+                  class="self-stretch flex flex-row items-start justify-between gap-[20px] mq450:flex-wrap"
+                >
+                  <div
+                    class="flex flex-row items-start justify-start gap-[18px]"
+                  >
+                    <div
+                      class="flex flex-col items-start justify-start pt-[1.5px] px-0 pb-0"
+                    >
                       <img
-                        class="global-icon5"
+                        class="w-[18px] h-[18px] relative shrink-0"
                         alt=""
-                        src="./public/global.svg"
+                        src="/public/global.svg"
                       />
                     </div>
-                    <b class="coverage5">Coverage</b>
+                    <b
+                      class="relative tracking-[0.15em] leading-[150%] uppercase inline-block min-w-[96px] shrink-0"
+                      >Coverage</b
+                    >
                   </div>
-                  <b class="nepal7">Nepal</b>
+                  <b
+                    class="relative text-base leading-[22px] inline-block min-w-[46px]"
+                    >Nepal</b
+                  >
                 </div>
-                <div class="frame-child19"></div>
-                <div class="frame-parent31">
-                  <div class="frame-parent32">
-                    <div class="arrow-swap-horizontal-wrapper2">
+                <div
+                  class="self-stretch h-px relative box-border shrink-0 border-t-[1px] border-solid border-color-base-light"
+                ></div>
+                <div
+                  class="self-stretch flex flex-row items-start justify-between gap-[20px] mq450:flex-wrap"
+                >
+                  <div
+                    class="flex flex-row items-start justify-start gap-[18px]"
+                  >
+                    <div
+                      class="flex flex-col items-start justify-start pt-[1.5px] px-0 pb-0"
+                    >
                       <img
-                        class="arrow-swap-horizontal-icon5"
+                        class="w-[18px] h-[18px] relative shrink-0"
                         alt=""
-                        src="./public/arrowswaphorizontal.svg"
+                        src="/public/arrowswaphorizontal.svg"
                       />
                     </div>
-                    <b class="data5">Data</b>
+                    <b
+                      class="relative tracking-[0.15em] leading-[150%] uppercase inline-block min-w-[46px] shrink-0"
+                      >Data</b
+                    >
                   </div>
-                  <b class="gb5">1 GB</b>
+                  <b
+                    class="relative text-base leading-[22px] inline-block min-w-[35px]"
+                    >1 GB</b
+                  >
                 </div>
-                <div class="frame-child20"></div>
-                <div class="frame-parent33">
-                  <div class="frame-parent34">
-                    <div class="calendar-wrapper2">
+                <div
+                  class="self-stretch h-px relative box-border shrink-0 border-t-[1px] border-solid border-color-base-light"
+                ></div>
+                <div
+                  class="self-stretch flex flex-row items-start justify-between gap-[20px] mq450:flex-wrap"
+                >
+                  <div
+                    class="flex flex-row items-start justify-start gap-[18px]"
+                  >
+                    <div
+                      class="flex flex-col items-start justify-start pt-[1.5px] px-0 pb-0"
+                    >
                       <img
-                        class="calendar-icon5"
+                        class="w-[18px] h-[18px] relative shrink-0"
                         alt=""
-                        src="./public/calendar.svg"
+                        src="/public/calendar.svg"
                       />
                     </div>
-                    <b class="validity5">validity</b>
+                    <b
+                      class="relative tracking-[0.15em] leading-[150%] uppercase inline-block min-w-[82px] shrink-0"
+                      >validity</b
+                    >
                   </div>
-                  <b class="days5">7 days</b>
+                  <b
+                    class="relative text-base leading-[22px] inline-block min-w-[51px]"
+                    >7 days</b
+                  >
                 </div>
-                <div class="frame-child21"></div>
-                <div class="frame-parent35">
-                  <div class="frame-parent36">
-                    <div class="tag-wrapper2">
-                      <img class="tag-icon5" alt="" src="./public/tag.svg" />
+                <div
+                  class="self-stretch h-px relative box-border shrink-0 border-t-[1px] border-solid border-color-base-light"
+                ></div>
+                <div
+                  class="self-stretch flex flex-row items-start justify-between gap-[20px] mq450:flex-wrap"
+                >
+                  <div
+                    class="flex flex-row items-start justify-start gap-[18px]"
+                  >
+                    <div
+                      class="flex flex-col items-start justify-start pt-[1.5px] px-0 pb-0"
+                    >
+                      <img
+                        class="w-[18px] h-[18px] relative shrink-0"
+                        alt=""
+                        src="/public/tag.svg"
+                      />
                     </div>
-                    <b class="price5">Price</b>
+                    <b
+                      class="relative tracking-[0.15em] leading-[150%] uppercase inline-block min-w-[52px] shrink-0"
+                      >Price</b
+                    >
                   </div>
-                  <b class="us-5005">US $5.00</b>
+                  <b
+                    class="relative text-lg leading-[22px] inline-block min-w-[82px]"
+                    >US $5.00</b
+                  >
                 </div>
-                <div class="frame-child22"></div>
+                <div
+                  class="self-stretch h-px relative box-border shrink-0 border-t-[1px] border-solid border-color-base-light"
+                ></div>
               </div>
-              <button class="buy-now-wrapper1">
-                <b class="buy-now5">BUY NOW</b>
+              <button
+                class="cursor-pointer [border:none] py-3 px-5 bg-dark-green self-stretch rounded-21xl flex flex-row items-start justify-center whitespace-nowrap hover:bg-teal"
+              >
+                <b
+                  class="relative text-sm tracking-[0.15em] leading-[150%] uppercase inline-block font-para text-color-base-light text-left min-w-[83px]"
+                  >BUY NOW</b
+                >
               </button>
               <img
-                class="cards-icon5"
+                class="w-[140px] h-[90px] absolute !m-[0] top-[-23px] right-[36px] rounded-3xs object-cover"
                 loading="lazy"
                 alt=""
-                src="./public/cards-5@2x.png"
+                src="/public/cards-5@2x.png"
               />
             </div>
           </div>
         </div>
       </section>
-      <section class="testimonials">
-        <div class="section">
-          <div class="container">
-            <div class="paragraph">
-              <div class="testimonial-quotes">
-                <div class="joshua-h">Joshua H: ⭐⭐⭐⭐⭐ (5/5)</div>
+      <section
+        class="self-stretch flex flex-col items-start justify-start max-w-full text-center text-base text-color-base-light font-dm-sans"
+      >
+        <div
+          class="self-stretch bg-dark-green flex flex-row items-start justify-center max-w-full shrink-0"
+        >
+          <div
+            class="w-[1280px] flex flex-row flex-wrap items-start justify-start py-[60px] px-[85px] box-border gap-[60px] max-w-full mq900:gap-[30px] mq900:pl-[21px] mq900:pr-[21px] mq900:box-border mq1275:pl-[42px] mq1275:pr-[42px] mq1275:box-border mq450:gap-[15px]"
+          >
+            <div
+              class="flex flex-col items-end justify-start pt-0 pb-[0.2px] pr-[3px] pl-0.5 box-border gap-[14.2px] max-w-full"
+            >
+              <div
+                class="w-[290px] flex flex-row items-start justify-end py-0 px-[47px] box-border mq450:pl-5 mq450:pr-5 mq450:box-border"
+              >
+                <div class="flex-1 relative leading-[20.8px] whitespace-nowrap">
+                  Joshua H: ⭐⭐⭐⭐⭐ (5/5)
+                </div>
               </div>
-              <blockquote class="i-successfully-located-container">
-                <p class="i-successfully-located">“I successfully located 5G</p>
-                <p class="service-as-i">service as I hopped through</p>
-                <p class="multiple-countries-in">multiple countries in the</p>
-                <p class="region">region.”</p>
+              <blockquote
+                class="m-0 relative text-5xl leading-[120%] font-semibold font-para mq450:text-lgi mq450:leading-[23px]"
+              >
+                <p class="m-0">“I successfully located 5G</p>
+                <p class="m-0">service as I hopped through</p>
+                <p class="m-0">multiple countries in the</p>
+                <p class="m-0">region.”</p>
               </blockquote>
             </div>
-            <div class="paragraph1">
-              <div class="eduardo-h-55-wrapper">
-                <div class="eduardo-h">Eduardo H: ⭐⭐⭐⭐⭐ (5/5)</div>
+            <div
+              class="flex flex-col items-end justify-start pt-0 px-px pb-[0.2px] box-border gap-[14.2px] max-w-full"
+            >
+              <div
+                class="w-[295.5px] flex flex-row items-start justify-end py-0 px-[45px] box-border mq450:pl-5 mq450:pr-5 mq450:box-border"
+              >
+                <div class="flex-1 relative leading-[20.8px] whitespace-nowrap">
+                  Eduardo H: ⭐⭐⭐⭐⭐ (5/5)
+                </div>
               </div>
-              <blockquote class="great-service-and-container">
-                <p class="great-service-and">“Great service and excellent</p>
-                <p class="technical-support-when">technical support when</p>
-                <p class="needed-makes-traveling">needed. Makes traveling</p>
-                <p class="easy">easy.”</p>
+              <blockquote
+                class="m-0 relative text-5xl leading-[120%] font-semibold font-para mq450:text-lgi mq450:leading-[23px]"
+              >
+                <p class="m-0">“Great service and excellent</p>
+                <p class="m-0">technical support when</p>
+                <p class="m-0">needed. Makes traveling</p>
+                <p class="m-0">easy.”</p>
               </blockquote>
             </div>
-            <div class="paragraph2">
-              <div class="suki-n-55-wrapper">
-                <div class="suki-n">Suki N: ⭐⭐⭐⭐⭐ (5/5)</div>
+            <div
+              class="flex-1 flex flex-col items-end justify-start pt-0 pb-[29.2px] pr-2 pl-[7px] box-border gap-[14.2px] min-w-[214px] max-w-full"
+            >
+              <div
+                class="self-stretch flex flex-row items-start justify-center py-0 pr-5 pl-[23px]"
+              >
+                <div
+                  class="w-[141.6px] relative leading-[20.8px] flex items-center justify-center shrink-0"
+                >
+                  Suki N: ⭐⭐⭐⭐⭐ (5/5)
+                </div>
               </div>
-              <blockquote class="i-purchased-an-container">
-                <p class="i-purchased-an">“I purchased an eSim data</p>
-                <p class="plan-for-the">plan for the first time and it</p>
-                <p class="was-a-smooth">was a smooth experience.”</p>
+              <blockquote
+                class="m-0 relative text-5xl leading-[120%] font-semibold font-para mq450:text-lgi mq450:leading-[23px]"
+              >
+                <p class="m-0">“I purchased an eSim data</p>
+                <p class="m-0">plan for the first time and it</p>
+                <p class="m-0">was a smooth experience.”</p>
               </blockquote>
             </div>
           </div>
         </div>
-        <div class="how-it-works-1920x">
-          <h1 class="heading">How ELumeSIM Works</h1>
-          <div class="phones">
-            <div class="steps-container">
-              <div class="step-illustrations">
-                <div class="background">
-                  <b class="destination-package">1</b>
+        <div
+          class="self-stretch bg-filler flex flex-col items-center justify-start py-numbers-80 px-5 box-border gap-[64px] max-w-full shrink-0 z-[1] mt-[-0.1px] text-29xl font-para mq900:gap-[32px] mq900:pb-[34px] mq900:box-border mq1275:pb-[52px] mq1275:box-border mq450:gap-[16px]"
+        >
+          <h1
+            class="m-0 w-[1680px] relative text-inherit leading-[53px] font-bold font-inherit flex items-center justify-center max-w-full mq900:text-19xl mq900:leading-[42px] mq450:text-10xl mq450:leading-[32px]"
+          >
+            How ELumeSIM Works
+          </h1>
+          <div
+            class="w-[1680px] flex flex-row items-start justify-between gap-[20px] max-w-full text-left text-15xl font-dm-sans mq1275:flex-wrap mq1275:justify-center"
+          >
+            <div
+              class="h-[700px] w-[281px] flex flex-col items-start justify-start pt-0 px-0 pb-[541.6px] box-border gap-[40.4px] mq900:pb-[229px] mq900:box-border mq1275:pb-[352px] mq1275:box-border mq450:gap-[20px]"
+            >
+              <div
+                class="self-stretch flex flex-row items-start justify-center py-0 px-5"
+              >
+                <div
+                  class="rounded-11xl bg-dark-green flex flex-row items-start justify-start pt-[5.9px] px-[23px] pb-[6.1px]"
+                >
+                  <b
+                    class="relative leading-[48px] inline-block min-w-[13px] mq900:text-8xl mq900:leading-[38px] mq450:text-xl mq450:leading-[29px]"
+                    >1</b
+                  >
                 </div>
               </div>
-              <div class="choose-your-destination-container">
-                <p class="choose-your-destination">Choose Your Destination</p>
-                <p class="package">& Package</p>
+              <div
+                class="relative text-5xl leading-[120%] font-para text-center mq450:text-lgi mq450:leading-[23px]"
+              >
+                <p class="m-0">Choose Your Destination</p>
+                <p class="m-0">& Package</p>
               </div>
-              <div class="step-phones">
+              <div
+                class="self-stretch flex flex-row items-start justify-start py-0 px-[15px]"
+              >
                 <img
-                  class="phone-icon"
+                  class="h-[501.3px] flex-1 relative max-w-full overflow-hidden"
                   loading="lazy"
                   alt=""
-                  src="./public/phone.svg"
+                  src="/public/phone.svg"
                 />
               </div>
             </div>
-            <div class="steps-container1">
-              <div class="background-wrapper">
-                <div class="background1">
-                  <b class="b">2</b>
+            <div
+              class="h-[700px] w-[250px] flex flex-col items-start justify-start pt-0 px-0 pb-[556.2px] box-border gap-[54.9px] mq900:pb-[235px] mq900:box-border mq1275:pb-[362px] mq1275:box-border mq450:gap-[27px]"
+            >
+              <div
+                class="self-stretch flex flex-row items-start justify-center py-0 px-5"
+              >
+                <div
+                  class="rounded-11xl bg-dark-green flex flex-row items-start justify-start pt-[5.9px] pb-[6.1px] pr-[19px] pl-5"
+                >
+                  <b
+                    class="relative leading-[48px] inline-block min-w-[20px] mq900:text-8xl mq900:leading-[38px] mq450:text-xl mq450:leading-[29px]"
+                    >2</b
+                  >
                 </div>
               </div>
-              <div class="heading-4-install-your-esim-wrapper">
-                <div class="heading-4">Install Your eSIM</div>
+              <div
+                class="flex flex-row items-start justify-start py-0 px-[30px] text-center text-5xl font-para"
+              >
+                <div
+                  class="relative leading-[29px] mq450:text-lgi mq450:leading-[23px]"
+                >
+                  Install Your eSIM
+                </div>
               </div>
               <img
-                class="phone-icon1"
+                class="self-stretch h-[501.4px] relative max-w-full overflow-hidden shrink-0"
                 loading="lazy"
                 alt=""
-                src="./public/phone-1.svg"
+                src="/public/phone-1.svg"
               />
             </div>
-            <div class="steps-container2">
-              <div class="background-container">
-                <div class="background2">
-                  <b class="b1">3</b>
+            <div
+              class="h-[700px] w-[250px] flex flex-col items-start justify-start pt-0 px-0 pb-[556.2px] box-border gap-[54.9px] mq900:pb-[235px] mq900:box-border mq1275:pb-[362px] mq1275:box-border mq450:gap-[27px]"
+            >
+              <div
+                class="self-stretch flex flex-row items-start justify-center py-0 px-5"
+              >
+                <div
+                  class="rounded-11xl bg-dark-green flex flex-row items-start justify-start pt-[5.9px] px-[19px] pb-[6.1px]"
+                >
+                  <b
+                    class="relative leading-[48px] inline-block min-w-[21px] mq900:text-8xl mq900:leading-[38px] mq450:text-xl mq450:leading-[29px]"
+                    >3</b
+                  >
                 </div>
               </div>
-              <div class="heading-4-activate-your-esim-wrapper">
-                <div class="heading-41">Activate Your eSIM</div>
+              <div
+                class="flex flex-row items-start justify-start py-0 px-[17px] text-center text-5xl font-para"
+              >
+                <div
+                  class="relative leading-[29px] mq450:text-lgi mq450:leading-[23px]"
+                >
+                  Activate Your eSIM
+                </div>
               </div>
               <img
-                class="phone-icon2"
+                class="self-stretch h-[501.4px] relative max-w-full overflow-hidden shrink-0"
                 loading="lazy"
                 alt=""
-                src="./public/phone-2.svg"
+                src="/public/phone-2.svg"
               />
             </div>
-            <div class="steps-container3">
-              <div class="background-frame">
-                <div class="background3">
-                  <b class="b2">4</b>
+            <div
+              class="w-[263px] flex flex-col items-start justify-start gap-[38.5px] mq450:gap-[19px]"
+            >
+              <div
+                class="self-stretch flex flex-row items-start justify-center py-0 px-5"
+              >
+                <div
+                  class="rounded-11xl bg-dark-green flex flex-row items-start justify-start pt-[5.9px] px-[18px] pb-[6.1px]"
+                >
+                  <b
+                    class="relative leading-[48px] inline-block min-w-[23px] mq900:text-8xl mq900:leading-[38px] mq450:text-xl mq450:leading-[29px]"
+                    >4</b
+                  >
                 </div>
               </div>
-              <div class="get-online-the-container">
-                <p class="get-online-the">Get Online the Moment</p>
-                <p class="you-arrive">You Arrive</p>
+              <div
+                class="relative text-5xl leading-[120%] font-para text-center mq450:text-lgi mq450:leading-[23px]"
+              >
+                <p class="m-0">Get Online the Moment</p>
+                <p class="m-0">You Arrive</p>
               </div>
-              <div class="dedf0337a3de033c836cdd-iphones-wrapper">
+              <div
+                class="self-stretch flex flex-row items-start justify-start py-0 px-1.5"
+              >
                 <img
-                  class="dedf0337a3de033c836cdd-iphones-icon"
+                  class="h-[505px] flex-1 relative max-w-full overflow-hidden object-cover"
                   loading="lazy"
                   alt=""
-                  src="./public/65dedf0337a3de033c836cdd-iphones3png@2x.png"
+                  src="/public/65dedf0337a3de033c836cdd-iphones3png@2x.png"
                 />
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section class="section1">
+      <section
+        class="self-stretch h-[446.4px] bg-color-base-light overflow-hidden shrink-0 flex flex-row items-start justify-start pt-[41.9px] px-[597px] pb-[76.8px] box-border gap-[60px] max-w-full text-left text-13xl text-gray-100 font-para mq900:gap-[15px] mq900:pt-[27px] mq900:px-[149px] mq900:pb-[50px] mq900:box-border mq1275:gap-[30px] mq1275:pl-[298px] mq1275:pr-[298px] mq1275:box-border mq450:pl-5 mq450:pr-5 mq450:box-border"
+      >
         <img
-          class="visa-container-icon"
+          class="h-[545.5px] w-[272px] relative mq900:hidden"
           loading="lazy"
           alt=""
-          src="./public/frame-1000006904.svg"
+          src="/public/frame-1000006904.svg"
         />
 
-        <div class="visa-offer">
-          <div class="visa-content">
+        <div
+          class="w-[324px] flex flex-col items-start justify-start pt-[28.1px] px-0 pb-0 box-border max-w-[calc(100%_-_332px)] shrink-0 mq900:max-w-full"
+        >
+          <div
+            class="self-stretch flex flex-col items-start justify-start gap-[30px]"
+          >
             <img
-              class="f325b00360c86ed4344b-visapng-icon"
+              class="w-[98.5px] h-8 relative overflow-hidden shrink-0 object-contain"
               loading="lazy"
               alt=""
-              src="./public/6502f325b00360c86ed4344b-visapng@2x.png"
+              src="/public/6502f325b00360c86ed4344b-visapng@2x.png"
             />
 
-            <div class="attention-visa-customers-parent">
-              <h2 class="attention-visa-customers-container">
-                <span class="attention-visa-customers-container1">
-                  <p class="attention-visa">Attention Visa</p>
-                  <p class="customers">Customers</p>
+            <div
+              class="self-stretch flex flex-col items-start justify-start gap-[44.1px] mq450:gap-[22px]"
+            >
+              <h2
+                class="m-0 w-[257.8px] relative text-inherit leading-[120%] font-bold font-inherit flex items-center shrink-0 mq900:text-7xl mq900:leading-[31px] mq450:text-lgi mq450:leading-[23px]"
+              >
+                <span class="w-full">
+                  <p class="m-0">Attention Visa</p>
+                  <p class="m-0">Customers</p>
                 </span>
               </h2>
-              <div class="visa-details">
-                <div class="visa-cardholders-may-container">
-                  <p class="visa-cardholders-may">
-                    Visa cardholders may be eligible to receive
-                  </p>
-                  <p class="complimentary-data-courtesy">
-                    complimentary data courtesy of Visa
-                  </p>
+              <div
+                class="self-stretch flex flex-col items-start justify-start gap-[20.5px] shrink-0 text-base"
+              >
+                <div class="relative leading-[135%]">
+                  <p class="m-0">Visa cardholders may be eligible to receive</p>
+                  <p class="m-0">complimentary data courtesy of Visa</p>
                 </div>
-                <button class="link">
-                  <b class="learn-more">Learn More</b>
+                <button
+                  class="cursor-pointer [border:none] py-3 pr-[41px] pl-[42px] bg-dark-green rounded-7xl flex flex-row items-start justify-start whitespace-nowrap hover:bg-teal"
+                >
+                  <b
+                    class="relative text-xl leading-[28px] inline-block font-dm-sans text-color-base-light text-left min-w-[110.1px]"
+                    >Learn More</b
+                  >
                 </button>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section class="section2">
-        <div class="compatibility-container">
-          <div class="compatibility-content">
-            <div class="compatibility-header">
-              <h1 class="heading-2">Check Your Compatibility</h1>
+      <section
+        class="self-stretch bg-color-base-light flex flex-col items-center justify-start py-[60px] px-5 box-border gap-[40.7px] max-w-full text-center text-29xl text-color-base-dark font-para mq900:gap-[20px] mq450:pt-[39px] mq450:pb-[39px] mq450:box-border"
+      >
+        <div
+          class="w-[1012px] flex flex-row items-start justify-end py-0 pr-[46px] pl-[47px] box-border max-w-full shrink-0 mq1275:pl-[23px] mq1275:pr-[23px] mq1275:box-border"
+        >
+          <div
+            class="flex-1 flex flex-col items-start justify-start gap-[14.3px] max-w-full"
+          >
+            <div
+              class="self-stretch flex flex-row items-start justify-center py-0 pr-[22px] pl-5"
+            >
+              <h1
+                class="m-0 relative text-inherit leading-[53px] font-bold font-inherit mq900:text-19xl mq900:leading-[42px] mq450:text-10xl mq450:leading-[32px]"
+              >
+                Check Your Compatibility
+              </h1>
             </div>
-            <div class="select-the-device">
+            <div class="self-stretch relative text-base leading-[23.4px]">
               Select the device you will be using to confirm if your smartphone
               or tablet is compatible with eSIM technology.
             </div>
           </div>
         </div>
-        <div class="device-options">
-          <div class="backgroundshadow">
+        <div
+          class="flex flex-row items-start justify-center gap-[60px] max-w-full text-left text-lg text-gray-100 mq1275:flex-wrap mq1275:gap-[30px]"
+        >
+          <div
+            class="shadow-[0px_0px_20px_4px_rgba(0,_0,_0,_0.15)] rounded-3xs bg-color-base-light overflow-hidden flex flex-col items-start justify-start pt-5 px-[71px] pb-[23.8px] gap-[15.4px]"
+          >
             <img
-              class="svg-icon"
+              class="w-[66px] h-[66px] relative"
               loading="lazy"
               alt=""
-              src="./public/svg.svg"
+              src="/public/svg.svg"
             />
 
-            <div class="device-names">
-              <div class="iphone">iPhone</div>
+            <div class="flex flex-row items-start justify-start py-0 px-[3px]">
+              <div
+                class="relative leading-[22px] font-semibold inline-block min-w-[60.4px]"
+              >
+                iPhone
+              </div>
             </div>
           </div>
-          <div class="backgroundshadow1">
+          <div
+            class="shadow-[0px_0px_20px_4px_rgba(0,_0,_0,_0.15)] rounded-3xs bg-color-base-light overflow-hidden flex flex-col items-start justify-start pt-5 px-[68px] pb-[23.8px] gap-[9.4px]"
+          >
             <img
-              class="svg-icon1"
+              class="w-[72px] h-[72px] relative"
               loading="lazy"
               alt=""
-              src="./public/svg-1.svg"
+              src="/public/svg-1.svg"
             />
 
-            <div class="android">Android</div>
+            <div
+              class="relative leading-[22px] font-semibold inline-block min-w-[70.9px]"
+            >
+              Android
+            </div>
           </div>
-          <div class="backgroundshadow2">
-            <div class="svg-wrapper">
+          <div
+            class="shadow-[0px_0px_20px_4px_rgba(0,_0,_0,_0.15)] rounded-3xs bg-color-base-light overflow-hidden flex flex-col items-start justify-start pt-5 pb-[23.8px] pr-12 pl-[49px] gap-[9.4px]"
+          >
+            <div
+              class="flex flex-row items-start justify-start py-0 pr-5 pl-[18px]"
+            >
               <img
-                class="svg-icon2"
+                class="h-[72px] w-[72px] relative"
                 loading="lazy"
                 alt=""
-                src="./public/svg-2.svg"
+                src="/public/svg-2.svg"
               />
             </div>
-            <div class="cellular-ipad">Cellular iPad</div>
+            <div
+              class="relative leading-[22px] font-semibold inline-block min-w-[109.9px]"
+            >
+              Cellular iPad
+            </div>
           </div>
-          <div class="backgroundshadow3">
-            <div class="svg-container">
+          <div
+            class="shadow-[0px_0px_20px_4px_rgba(0,_0,_0,_0.15)] rounded-3xs bg-color-base-light overflow-hidden flex flex-col items-start justify-start pt-5 px-[41px] pb-[23.8px] gap-[9.4px]"
+          >
+            <div
+              class="flex flex-row items-start justify-start py-0 pr-[27px] pl-[26px]"
+            >
               <img
-                class="svg-icon3"
+                class="h-[72px] w-[72px] relative"
                 loading="lazy"
                 alt=""
-                src="./public/svg-3.svg"
+                src="/public/svg-3.svg"
               />
             </div>
-            <div class="other-devices">Other Devices</div>
-          </div>
-        </div>
-      </section>
-      <section class="choice-container-parent">
-        <div class="choice-container">
-          <div class="choice-header">
-            <div class="divider">
-              <div class="horizontal-divider"></div>
-            </div>
-            <h2 class="why-choose-us">Why Choose Us</h2>
-            <div class="divider1">
-              <div class="horizontal-divider1"></div>
-            </div>
-          </div>
-        </div>
-        <div class="reasons-container">
-          <div class="reason-list">
-            <div class="reason-headings">
-              <div class="heading-42">Local Payment</div>
-            </div>
-            <div class="we-accept-payment-container">
-              <p class="we-accept-payment">We accept payment in up</p>
-              <p class="to-70-local">to 70+ local currencies</p>
-              <p class="alongside-mazor-credit">alongside Mazor Credit</p>
-              <p class="cards">Cards.</p>
-            </div>
-          </div>
-          <div class="reason-list1">
-            <div class="heading-4-100-satisfaction-wrapper">
-              <div class="heading-43">100% Satisfaction</div>
-            </div>
-            <div class="we-strive-to-container">
-              <p class="we-strive-to">We strive to please our</p>
-              <p class="customers-in-every">customers in every way.</p>
-              <p class="your-satisfaction-is">Your satisfaction is 100%</p>
-              <p class="guaranteed">guaranteed.</p>
-            </div>
-          </div>
-          <div class="reason-list2">
-            <div class="heading-4-rocket-delivery-wrapper">
-              <div class="heading-44">Rocket Delivery</div>
-            </div>
-            <div class="we-strive-to-container1">
-              <p class="we-strive-to1">We strive to complete all</p>
-              <p class="customer-orders-within">customer orders within 15</p>
-              <p class="minutes">minutes.</p>
-            </div>
-          </div>
-          <div class="reason-list3">
-            <div class="heading-4-dedicated-support-wrapper">
-              <div class="heading-45">Dedicated Support</div>
-            </div>
-            <div class="we-have-a-container">
-              <p class="we-have-a">We have a dedicated</p>
-              <p class="support-team-on">support team on hand to</p>
-              <p class="assist-you-in">assist you in any situation.</p>
+            <div
+              class="relative leading-[22px] font-semibold inline-block min-w-[125.5px]"
+            >
+              Other Devices
             </div>
           </div>
         </div>
       </section>
-      <img class="section-icon" alt="" src="./public/section@2x.png" />
+      <section
+        class="self-stretch bg-filler flex flex-col items-start justify-start py-20 px-0 box-border gap-[24px] max-w-full text-center text-13xl text-color-base-light font-para mq900:pt-[52px] mq900:pb-[52px] mq900:box-border"
+      >
+        <div
+          class="self-stretch flex flex-row items-start justify-center py-0 px-5 box-border max-w-full"
+        >
+          <div
+            class="w-[1680px] flex flex-row flex-wrap items-start justify-start gap-[25px] max-w-full"
+          >
+            <div
+              class="flex-1 flex flex-col items-start justify-start pt-[18px] px-0 pb-0 box-border min-w-[449px] max-w-full mq900:min-w-full"
+            >
+              <div
+                class="self-stretch h-0.5 relative box-border border-t-[2px] border-solid border-color-base-light"
+              ></div>
+            </div>
+            <h2
+              class="m-0 relative text-inherit leading-[120%] font-bold font-inherit mq900:text-7xl mq900:leading-[31px] mq450:text-lgi mq450:leading-[23px]"
+            >
+              Why Choose Us
+            </h2>
+            <div
+              class="flex-1 flex flex-col items-start justify-start pt-[18px] px-0 pb-0 box-border min-w-[449px] max-w-full mq900:min-w-full"
+            >
+              <div
+                class="self-stretch h-0.5 relative box-border border-t-[2px] border-solid border-color-base-light"
+              ></div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="self-stretch flex flex-row flex-wrap items-start justify-center py-section-spacing-s px-[324px] gap-[24px] text-5xl mq900:pl-[81px] mq900:pr-[81px] mq900:box-border mq1275:pl-[162px] mq1275:pr-[162px] mq1275:box-border"
+        >
+          <div
+            class="flex-1 shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] rounded-3xs bg-dark-green flex flex-col items-start justify-start py-10 px-6 box-border gap-[12px] min-w-[256px] max-w-[300px]"
+          >
+            <div
+              class="self-stretch flex flex-row items-start justify-start py-0 px-[41px]"
+            >
+              <div
+                class="relative leading-[29px] font-semibold mq450:text-lgi mq450:leading-[23px]"
+              >
+                Local Payment
+              </div>
+            </div>
+            <div class="self-stretch relative text-base leading-[135%]">
+              <p class="m-0">We accept payment in up</p>
+              <p class="m-0">to 70+ local currencies</p>
+              <p class="m-0">alongside Mazor Credit</p>
+              <p class="m-0">Cards.</p>
+            </div>
+          </div>
+          <div
+            class="flex-1 shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] rounded-3xs bg-dark-green flex flex-col items-start justify-start py-10 px-6 box-border gap-[12px] min-w-[256px] max-w-[300px]"
+          >
+            <div
+              class="self-stretch flex flex-row items-start justify-start py-0 px-[21px]"
+            >
+              <div
+                class="relative leading-[29px] font-semibold mq450:text-lgi mq450:leading-[23px]"
+              >
+                100% Satisfaction
+              </div>
+            </div>
+            <div class="self-stretch relative text-base leading-[135%]">
+              <p class="m-0">We strive to please our</p>
+              <p class="m-0">customers in every way.</p>
+              <p class="m-0">Your satisfaction is 100%</p>
+              <p class="m-0">guaranteed.</p>
+            </div>
+          </div>
+          <div
+            class="flex-1 shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] rounded-3xs bg-dark-green flex flex-col items-start justify-start pt-10 px-6 pb-[62px] box-border gap-[12px] min-w-[256px] max-w-[300px]"
+          >
+            <div
+              class="self-stretch flex flex-row items-start justify-start py-0 px-[35px]"
+            >
+              <div
+                class="relative leading-[29px] font-semibold mq450:text-lgi mq450:leading-[23px]"
+              >
+                Rocket Delivery
+              </div>
+            </div>
+            <div class="self-stretch relative text-base leading-[135%]">
+              <p class="m-0">We strive to complete all</p>
+              <p class="m-0">customer orders within 15</p>
+              <p class="m-0">minutes.</p>
+            </div>
+          </div>
+          <div
+            class="flex-1 shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] rounded-3xs bg-dark-green flex flex-col items-start justify-start pt-10 px-6 pb-[62px] box-border gap-[12px] min-w-[256px] max-w-[300px]"
+          >
+            <div
+              class="self-stretch flex flex-row items-start justify-start py-0 px-4"
+            >
+              <div
+                class="relative leading-[29px] font-semibold mq450:text-lgi mq450:leading-[23px]"
+              >
+                Dedicated Support
+              </div>
+            </div>
+            <div class="self-stretch relative text-base leading-[135%]">
+              <p class="m-0">We have a dedicated</p>
+              <p class="m-0">support team on hand to</p>
+              <p class="m-0">assist you in any situation.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <img
+        class="self-stretch relative max-w-full overflow-hidden max-h-full object-cover"
+        alt=""
+        src="/public/section@2x.png"
+      />
 
-      <footer class="footer">
-        <div class="footer-content">
-          <div class="smartphone-2-parent">
+      <footer
+        class="self-stretch bg-dark-green flex flex-row items-start justify-between p-[120px] box-border max-w-full gap-[20px] text-left text-9xl text-color-base-light font-almarai mq1625:flex-wrap mq900:py-section-spacing-l mq900:px-margins mq900:box-border mq1275:pl-[60px] mq1275:pr-[60px] mq1275:box-border"
+      >
+        <div
+          class="flex flex-col items-start justify-start gap-[24px] max-w-full"
+        >
+          <div class="flex flex-row items-start justify-start gap-[8px]">
             <img
-              class="smartphone-2-icon"
+              class="h-8 w-8 relative object-cover min-h-[32px]"
               loading="lazy"
               alt=""
-              src="./public/smartphone-2@2x.png"
+              src="/public/smartphone-2@2x.png"
             />
 
-            <h3 class="elumesim1">eLumeSIM</h3>
+            <h3
+              class="m-0 h-[31px] relative text-inherit font-bold font-inherit flex items-center mq450:text-3xl"
+            >
+              eLumeSIM
+            </h3>
           </div>
-          <div class="elumesim-all-rights">
+          <div class="relative text-base leading-[22px] font-para">
             ©2024 ELumeSIM All Rights reserved.
           </div>
-          <div class="social-media">
+          <div class="flex flex-row items-center justify-start gap-[16px]">
             <img
-              class="link-65ae3029d0bd777a4e78705"
+              class="h-[30px] w-[30px] relative overflow-hidden shrink-0 object-cover min-h-[30px]"
               loading="lazy"
               alt=""
-              src="./public/link--65ae3029d0bd777a4e78705e-instagrampng@2x.png"
+              src="/public/link--65ae3029d0bd777a4e78705e-instagrampng@2x.png"
             />
 
             <img
-              class="link-65ae30291732875dfe6ced5"
+              class="h-[30px] w-[30px] relative overflow-hidden shrink-0 object-cover min-h-[30px]"
               loading="lazy"
               alt=""
-              src="./public/link--65ae30291732875dfe6ced52-facebookpng@2x.png"
+              src="/public/link--65ae30291732875dfe6ced52-facebookpng@2x.png"
             />
 
             <img
-              class="link-65ae30297bc37e6591160b7"
+              class="h-[22.5px] w-[29.3px] relative overflow-hidden shrink-0 object-contain"
               loading="lazy"
               alt=""
-              src="./public/link--65ae30297bc37e6591160b74-youtubepng@2x.png"
+              src="/public/link--65ae30297bc37e6591160b74-youtubepng@2x.png"
             />
           </div>
-          <button class="footer-promotion">
-            <div class="get-your-free">
+          <button
+            class="cursor-pointer [border:none] py-3 px-6 bg-back rounded-21xl flex flex-row items-center justify-center whitespace-nowrap hover:bg-dimgray-200"
+          >
+            <div
+              class="relative text-base leading-[22px] font-para text-color-base-light text-left"
+            >
               Get Your Free 100MB Travel Data Plan
             </div>
           </button>
-          <button class="footer-promotion1">
-            <div class="rate-elumesim">Rate ELumeSIM</div>
+          <button
+            class="cursor-pointer [border:none] py-3 px-6 bg-back rounded-21xl flex flex-row items-center justify-center whitespace-nowrap hover:bg-dimgray-200"
+          >
+            <div
+              class="relative text-base leading-[22px] font-para text-color-base-light text-left inline-block min-w-[119px]"
+            >
+              Rate ELumeSIM
+            </div>
           </button>
         </div>
-        <div class="region-navigation">
-          <div class="help-navigation">
-            <div class="heading-46">HELP</div>
-            <div class="link-help">Help Center</div>
-            <div class="link-faqs">FAQs</div>
-            <div class="link-contact">Contact Us</div>
-            <div class="link-blog">Blog</div>
+        <div
+          class="flex flex-row items-start justify-start gap-[64px] max-w-full text-lg font-para mq900:gap-[16px] mq1275:flex-wrap mq1275:gap-[32px]"
+        >
+          <div class="flex flex-col items-start justify-start gap-[24px]">
+            <div
+              class="relative text-5xl leading-[29px] font-semibold inline-block min-w-[62px] mq450:text-lgi mq450:leading-[23px]"
+            >
+              HELP
+            </div>
+            <div
+              class="relative leading-[22px] font-semibold inline-block min-w-[105px]"
+            >
+              Help Center
+            </div>
+            <div
+              class="relative leading-[22px] font-semibold inline-block min-w-[46px]"
+            >
+              FAQs
+            </div>
+            <div
+              class="relative leading-[22px] font-semibold inline-block min-w-[98px]"
+            >
+              Contact Us
+            </div>
+            <div
+              class="relative leading-[22px] font-semibold inline-block min-w-[39px]"
+            >
+              Blog
+            </div>
           </div>
-          <div class="collaboration">
-            <div class="heading-47">WORK WITH US</div>
-            <div class="link-affiliate">Affiliate Program</div>
-            <div class="link-enterprise">Enterprise</div>
-            <div class="link-terms">Terms of Service</div>
-            <div class="link-acceptable">Acceptable Use Policy</div>
-            <div class="link-privacy">Privacy Policy</div>
+          <div class="flex flex-col items-start justify-start gap-[24px]">
+            <div
+              class="relative text-5xl leading-[29px] font-semibold mq450:text-lgi mq450:leading-[23px]"
+            >
+              WORK WITH US
+            </div>
+            <div class="relative leading-[22px] font-semibold">
+              Affiliate Program
+            </div>
+            <div
+              class="relative leading-[22px] font-semibold inline-block min-w-[91px]"
+            >
+              Enterprise
+            </div>
+            <div class="relative leading-[22px] font-semibold">
+              Terms of Service
+            </div>
+            <div class="relative leading-[22px] font-semibold">
+              Acceptable Use Policy
+            </div>
+            <div
+              class="relative leading-[22px] font-semibold inline-block min-w-[122px]"
+            >
+              Privacy Policy
+            </div>
           </div>
-          <div class="region-links">
-            <div class="heading-48">POPULAR REGIONS</div>
-            <div class="link-europe">Europe</div>
-            <div class="link-north">North America</div>
-            <div class="link-caribbean">Caribbean</div>
-            <div class="link-asia">Asia Pacific</div>
-            <div class="link-latin">Latin America</div>
-            <div class="link-cruises">Cruises</div>
-            <div class="link-offshore">Offshore</div>
-            <div class="link-in">In Flight</div>
+          <div class="flex flex-col items-start justify-start gap-[24px]">
+            <div
+              class="relative text-5xl leading-[29px] font-semibold mq450:text-lgi mq450:leading-[23px]"
+            >
+              POPULAR REGIONS
+            </div>
+            <div
+              class="relative leading-[22px] font-semibold inline-block min-w-[62px]"
+            >
+              Europe
+            </div>
+            <div
+              class="relative leading-[22px] font-semibold inline-block min-w-[127px]"
+            >
+              North America
+            </div>
+            <div
+              class="relative leading-[22px] font-semibold inline-block min-w-[91px]"
+            >
+              Caribbean
+            </div>
+            <div
+              class="relative leading-[22px] font-semibold inline-block min-w-[101px]"
+            >
+              Asia Pacific
+            </div>
+            <div
+              class="relative leading-[22px] font-semibold inline-block min-w-[120px]"
+            >
+              Latin America
+            </div>
+            <div
+              class="relative leading-[22px] font-semibold inline-block min-w-[67px]"
+            >
+              Cruises
+            </div>
+            <div
+              class="relative leading-[22px] font-semibold inline-block min-w-[77px]"
+            >
+              Offshore
+            </div>
+            <div
+              class="relative leading-[22px] font-semibold inline-block min-w-[70px]"
+            >
+              In Flight
+            </div>
           </div>
-          <div class="region-links1">
-            <div class="heading-49">POPULAR DESTINATIONS</div>
-            <div class="link-united">United States</div>
-            <div class="link-united1">United Kingdom</div>
-            <div class="link-canada">Canada</div>
-            <div class="link-mexico">Mexico</div>
-            <div class="link-italy">Italy</div>
-            <div class="link-france">France</div>
-            <div class="link-brazil">Brazil</div>
-            <div class="link-japan">Japan</div>
+          <div class="flex flex-col items-start justify-start gap-[24px]">
+            <div
+              class="relative text-5xl leading-[29px] font-semibold mq450:text-lgi mq450:leading-[23px]"
+            >
+              POPULAR DESTINATIONS
+            </div>
+            <div
+              class="relative leading-[22px] font-semibold inline-block min-w-[119px]"
+            >
+              United States
+            </div>
+            <div class="relative leading-[22px] font-semibold">
+              United Kingdom
+            </div>
+            <div
+              class="relative leading-[22px] font-semibold inline-block min-w-[67px]"
+            >
+              Canada
+            </div>
+            <div
+              class="relative leading-[22px] font-semibold inline-block min-w-[63px]"
+            >
+              Mexico
+            </div>
+            <div
+              class="relative leading-[22px] font-semibold inline-block min-w-[38px]"
+            >
+              Italy
+            </div>
+            <div
+              class="relative leading-[22px] font-semibold inline-block min-w-[60px]"
+            >
+              France
+            </div>
+            <div
+              class="relative leading-[22px] font-semibold inline-block min-w-[49px]"
+            >
+              Brazil
+            </div>
+            <div
+              class="relative leading-[22px] font-semibold inline-block min-w-[53px]"
+            >
+              Japan
+            </div>
           </div>
         </div>
       </footer>
